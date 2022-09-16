@@ -1,12 +1,17 @@
 body {
-  margin: auto;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header, main, footer {
+  margin: 2rem auto;
   max-width: 550px;
-  font-size: 1.3rem;
-  font-family: "Kalam", cursive;
 }
 
 header, footer {
   align-items: center;
+  justify-items: center;
   text-align: center;
   padding: 1rem;
   border-radius: 1.5rem;
@@ -14,44 +19,31 @@ header, footer {
   box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
 }
 
+header img {
+  width: 100%;
+  height: auto;
+}
+
 header {
   display:grid;
-  grid-template-columns: 20% 1fr;
-  margin-top: 30px;
-}
-
-footer {
-  margin-bottom: 30px;
-} 
-
-img {
-  height: 130px;
-  width: auto;
-  
-}
-
-main {
-  padding: 2rem;
-  line-height: 1.5;
+  grid-template-columns: 25% 1fr;
 }
 
 h1 {
-  margin: auto;
-  text-shadow: 3px 3px #999898;
+  text-shadow: 2px 2px #999898;
   font-size: 3.5rem;
 }
 
 h2 {
-  text-shadow: 2px 2px #999898;
-  font-size: 1.8rem;
+  text-shadow: 1.3px 1.3px #999898;
+  font-size: 2rem;
 }
 
-a {
+main ul li a, #lastupdated {
   text-decoration:none;
   color: #6d0404;
 }
 
 #lastupdated {
-  color: #6d0404;
   font-size: 1.2rem;
 }
