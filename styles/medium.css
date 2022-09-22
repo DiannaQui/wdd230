@@ -1,0 +1,14 @@
+@media only screen and (min-width:32.5em) {
+  body {
+    font-weight: 100;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+}

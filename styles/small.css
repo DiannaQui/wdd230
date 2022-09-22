@@ -1,7 +1,8 @@
 body {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.5;
-  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-family: 'Scheherazade New', serif;
 }
 
 header, main, footer {
@@ -20,7 +21,7 @@ header, footer {
 }
 
 header img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
@@ -31,7 +32,8 @@ header {
 
 h1 {
   text-shadow: 2px 2px #999898;
-  font-size: 3.5rem;
+  font-size: 2rem;
+  font-family: 'Carattere', cursive;
 }
 
 h2 {
