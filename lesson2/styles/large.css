@@ -5,7 +5,10 @@
 
   main {
     display:grid;
-    grid-template-areas: ' myDesign1 myDesign2 myDesign3';
+    grid-template-areas: 'myDesign1 myDesign2 myDesign3';
   }
 
+  .design3 img {
+    width: 75.5%;
+  }
 }

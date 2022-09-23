@@ -10,4 +10,7 @@
                          'myDesign3 myDesign3';
   }
 
+  .design3 img {
+    width: 90%;
+  }
 }
