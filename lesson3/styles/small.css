@@ -62,7 +62,6 @@ table {
   text-decoration: none;
   color: #000000;
   font-size: 2rem;
-  font-weight: normal;
   text-shadow: 1px 1px #81807e;
 }
 
@@ -84,9 +83,11 @@ table {
 .colors, .typography {
   margin: auto;
   text-align: center;
+  font-weight: bold;
 }
 .colors th, .typography th {
   background-color: rgb(157, 156, 160);
+  padding: 15px;
 }
 
 .primary {
