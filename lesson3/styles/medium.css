@@ -3,4 +3,12 @@
     flex-direction: row;
   }
 
+  .persona {
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 3rem;
+    background-color: rgb(244, 242, 204);
+  }
 }
