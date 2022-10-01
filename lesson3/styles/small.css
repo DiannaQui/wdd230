@@ -80,6 +80,11 @@ table {
   background-color: rgb(244, 242, 204);
 }
 
+.colors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .colors, .typography {
   margin: auto;
   text-align: center;

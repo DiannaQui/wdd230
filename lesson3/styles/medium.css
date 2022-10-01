@@ -11,4 +11,9 @@
     padding: 3rem;
     background-color: rgb(244, 242, 204);
   }
+
+  .colors {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 800px;
+  }
 }
