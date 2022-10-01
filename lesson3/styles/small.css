@@ -1,0 +1,140 @@
+body {
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: 'Scheherazade New', serif;
+  max-width:1200px;
+  margin: 2rem auto;
+}
+
+main {
+  margin: 4rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav div {
+  border-inline: 1px solid #FFDF6C;
+  background-color: rgb(244, 242, 204);
+  flex: 1 1 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px #FFDF6C;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px #ff0000;
+}
+
+header, footer {
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #FFDF6C;  
+  box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
+  padding: 1px;
+}
+
+header {
+  text-shadow: 2px 2px #999898;
+  font-size: 2rem;
+  font-family: 'Patrick Hand', cursive;
+}
+
+h3 {
+  padding-top: 2rem;
+}
+
+table {
+  border-spacing: 10px;
+ }
+
+.palette {
+  text-decoration: none;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: normal;
+  text-shadow: 1px 1px #81807e;
+}
+
+.example h4 {
+  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.example {
+  font-size: 20px;
+  text-align: center;
+  box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
+}
+
+.typography {  
+  background-color: rgb(244, 242, 204);
+}
+
+.colors, .typography {
+  margin: auto;
+  text-align: center;
+}
+.colors th, .typography th {
+  background-color: rgb(157, 156, 160);
+}
+
+.primary {
+  background-color: #fa0000;
+}
+
+.secondary {
+  background-color: #ffdf6c;
+}
+
+.accent1 {
+  background-color: #b59b3d;
+}
+
+.accent2 {
+  background-color: #960b0b;
+}
+
+.accent3 {
+  background-color: #000000;
+  color: white;
+}
+
+.size45 {
+  font-size: 45px;
+}
+
+.size35 {
+  font-size: 35px;
+}
+
+.size30 {
+  font-size: 30px;
+}
+
+.size25 {
+  font-size: 25px;
+}
+
+.size20 {
+  font-size: 20px;
+}
+
+.persona {
+  display:grid;
+  grid-template-columns: 150px 1fr;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 3rem;
+  background-color: rgb(244, 242, 204);
+}

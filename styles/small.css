@@ -15,7 +15,6 @@ header, footer {
   justify-items: center;
   text-align: center;
   padding: 1rem;
-  border-radius: 1.5rem;
   background-color: #FFDF6C;  
   box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
 }
