@@ -1,0 +1,271 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+body {
+  padding: 0;
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: 'Scheherazade New', serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ******************** */
+/*        HEADER        */
+/* ******************** */
+
+header {
+  background-color: #ffdf6c;
+  padding: 1rem 0;
+}
+
+.headertop {
+	padding: 5px 0;
+	display: flex;
+	justify-content: space-between;
+  background-color: #ffdf6c;
+}
+
+.headings h2, h3{
+	display: flex;
+	flex-direction: column;
+  margin: 0;
+	padding-left: .5rem;
+  font-family: 'Patrick Hand', cursive;
+  text-shadow: 1.5px 1.5px #999898;
+}
+
+.headings h2 {
+	font-size: 1.5rem;
+}
+
+.headings h3 {
+  font-size: 1rem;
+}
+
+
+
+/* ******************** */
+/*         LOGO         */
+/* ******************** */
+
+.logo {
+	display: flex;
+	align-items: flex-start;
+	margin-left: 1rem;
+}
+
+.logo img {
+	width: 3rem;
+	height: auto;
+}
+
+picture {
+  display: flex;
+}
+
+/* ******************** */
+/*        REVERSE       */
+/* ******************** */
+.reverse {
+	display: flex;
+	align-items: left;
+}
+
+/* ******************** */
+/*        SOCIAL        */
+/* ******************** */
+
+.social img {
+  align-items: flex-start;
+  width: 1.5rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+/* ******************** */
+/*       HAMBURGER      */
+/* ******************** */
+
+nav button{
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color:#555;
+}
+
+nav {
+  background-color: #ffdf6c;
+  margin-right: .6rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  font-size: 1.3rem;
+
+  text-decoration: none;
+  color:#333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  
+}
+
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+nav ul { display: none; }
+
+nav ul.open { 
+  display: block; 
+  text-align:  right;
+}
+
+#hamburgerBtn span:nth-child(1) { display: block; }
+#hamburgerBtn span:nth-child(2) { display: none; }
+
+#hamburgerBtn.open span:nth-child(1) { display: none; }
+#hamburgerBtn.open span:nth-child(2) { display: block;}
+
+
+
+/* ******************** */
+/*         DATE         */
+/* ******************** */
+
+.date {
+  display: block;
+  text-align: center;
+  border-top: 2px solid #9f862c;
+  border-left: 2px solid #9f862c;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  background-color: #b59b3d;
+  padding: 1px;
+  margin: 0 1rem;
+} 
+
+
+
+/* ******************** */
+/*         MAIN         */
+/* ******************** */
+
+main {
+  display:grid;
+  grid-template-columns: 98%;
+  grid-gap: 5px;
+  padding: 1rem 0;
+}
+
+main div {
+  border: 1px solid gray;
+  background-color: lightgray;
+  padding-bottom: 10rem;
+}
+
+.spotlight div {
+  border: 1px solid gray;
+  background-color: lightgray;
+  padding-bottom: 10rem;
+  margin: 1rem 1rem;
+} 
+
+.spotlight {
+  display:grid;
+  grid-area: 1fr;
+  padding-bottom: 0rem;
+}
+
+.join {
+  display: none;
+}
+
+
+
+  /* ********************* */
+  /*         FOOTER        */
+  /* ********************* */
+  
+  footer {
+    display: grid;
+    grid-template-columns: 98%;
+    background-color: #ffdf6c;
+    justify-items: center;
+    text-align: center;
+    box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
+  }
+
+  .imagefooter {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .namefooter {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .mapfooter {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+
+  .jsfooter {
+    grid-column: 1 / -1;
+    grid-row: 4;
+  }
+
+  footer p {
+    margin: .2rem;
+    font-size: 1.3rem;
+  }
+
+   /* ********************* */
+   /*      FOOTER  LOGO     */
+   /* ********************* */
+
+  .imagefooter img {
+    width: 5rem;
+    height: auto;
+  }
+
+
+
+   /* ********************* */
+   /*     FOOTER  JAVAS     */
+   /* ********************* */
+
+  .jsfooter {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #b59b3d;
+  }
+
+  .jsfooter1 {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .jsfooter p {
+    padding: 0 1rem;
+  }
