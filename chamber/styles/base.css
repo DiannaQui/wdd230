@@ -82,7 +82,7 @@ picture {
 
 .social img {
   align-items: flex-start;
-  width: 1.5rem;
+  width: 2.2rem;
 }
 
 a:link {
@@ -98,7 +98,7 @@ a:link {
 nav button{
   background: transparent;
   border: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color:#555;
 }
 
