@@ -1,5 +1,14 @@
 @media only screen and (min-width: 64em) {
 
+  /* ******************** */
+  /*     HEADER ORDER     */
+  /* ******************** */
+
+  .headertop :nth-child(1) { order: 1; }
+  .headertop :nth-child(2) { order: 3; }
+  .headertop :nth-child(3) { order: 2; }
+
+
   /* ********************* */
   /*       HAMBURGER       */
   /* ********************* */
@@ -21,13 +30,6 @@
     display: flex;
   }
 
-  /* ******************** */
-  /*        REVERSE       */
-  /* ******************** */
-  .reverse {
-    flex-flow: row-reverse;
-    margin-right: 1rem;
-}
 
   /* ********************* */
   /*      MAIN SECTION     */
@@ -78,14 +80,12 @@
   }
 
 
+  /* ********************* */
+  /*       FOOTER          */
+  /* ********************* */
 
-
- /* ********************* */
- /*       FOOTER          */
- /* ********************* */
-
-.jsfooter {
-  flex-direction: row;
- }
+  .jsfooter {
+    flex-direction: row;
+  }
 
 }
