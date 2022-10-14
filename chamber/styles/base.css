@@ -78,7 +78,6 @@ header {
 .logo {
 	display: flex;
 	align-items: flex-start;
-	margin-left: 1rem;
 }
 
 .logo img {
@@ -202,7 +201,7 @@ main div {
   text-align: center;
 }
 
-.event, .weather, .news {
+.event, .weather, .news, .join, .spotlight {
   padding: .5em;
   font-size: 1.2rem;
 }
