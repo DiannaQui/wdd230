@@ -210,6 +210,15 @@ main h3 {
   color: #960b0b;
 }
 
+.linkMoreInfo {
+  color: rgb(5, 5, 176);
+  font-weight: bold;
+}
+
+.linkMoreInfo:hover{
+  color: #791b1b;
+}
+
 .weather img {
   width: 50%;
 }
