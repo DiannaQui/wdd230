@@ -37,6 +37,10 @@
     grid-template-columns: 25% 23% 25% 25%;
   }
 
+  .herodiv img{
+    height: 100%;
+  }
+
   .event {
     grid-column: 1 / 2;
     grid-row: 1 / 2;

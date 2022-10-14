@@ -8,6 +8,10 @@
     grid-template-columns: 23% 25% 25% 25%;
   }
 
+  .herodiv img{
+    height: 25rem;
+  }
+
   .hero {
     grid-column: 1 / -1;
     grid-row: 1;
