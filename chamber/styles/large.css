@@ -45,11 +45,8 @@
   /* ********************* */
 
   main {
-    grid-template-columns: 25% 23% 25% 25%;
-  }
-
-  .herodiv img{
-    height: 100%;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: center;
   }
 
   .event {

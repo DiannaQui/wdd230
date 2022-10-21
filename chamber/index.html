@@ -37,11 +37,11 @@
 
       <div class="social">
         <a href="https://www.youtube.com/" target="_blank">
-          <img src="images/youtubeicon.webp" alt="YouTube Icon">
+          <img src="images/YouTube48px.webp" alt="YouTube Icon">
         </a>
 
         <a href="https://www.instagram.com/" target="_blank">
-          <img src="images/instagramicon.webp" alt="Instagram Icon">
+          <img src="images/Instagram48px.webp" alt="Instagram Icon">
         </a>
       </div>
       
@@ -70,7 +70,9 @@
       <h1 class="welcome">Welcome to Rio Rancho</h1>
       <div class="herodiv">
         <picture>
-          <img src="images/RioR.webp" alt="Welcome image of Rio Rancho Chamber of Commerce">
+          <source media="(min-width: 1024px)" srcset="images/large-org800x800.webp">
+          <source media="(min-width: 550px)" srcset="images/medium-org1000x282.webp">
+          <img src="images/small-org550x155.webp" alt="Welcome image of Rio Rancho Chamber of Commerce">
         </picture>
         <button class="joinRRCOC">
           Join the Chamber
@@ -83,14 +85,30 @@
 
       <p>🌹Celebrate the fall season</p>
 
-      <p> This year, the festivities will again take place at Campus Park in City Center on Saturday, October 22, 2022 from 2 p.m. to 8 p.m.  <a href="https://rrnm.gov/Calendar.aspx?EID=9555" target="_blank"><span class="linkMoreInfo">more info...</span></a></p>
+      <p> The festivities will again take place in City Center on Saturday. <a href="https://rrnm.gov/Calendar.aspx?EID=9555" target="_blank"><span class="linkMoreInfo">more info...</span></a></p>
 
     </div>
 
     <div class="weather">
       <h2>Weather</h2>
-
-      <img src="images/weather.webp" alt="Picture of a Sun and a Cloud">
+          <div class="weather-top">
+            <div>
+              <picture>
+                  <img src="images/weather-icon.png" alt="picture of sun and cloud"> 
+              </picture>
+            </div>
+            <div>
+              <p><span class="degrees"></span>°C</p>
+            </div>
+          </div>
+          <div class="weather-center">
+            <p>Partly Cloudy</p>
+          </div>
+          <div class="weather-bottom">
+            <p>Speed: <span class="speed"></span> km/h</p>
+            <p>Wind Chill: <span class="wind"></span></p>
+          </div>
+          
     </div>
 
     <div class="news">
@@ -108,14 +126,38 @@
 
     <div class="spotlight">
       <div class="spotlight1">
-        <h2>Spotlight 1</h2>
+        <h2>Thankful Transport</h2>
+        <picture>
+            <img src="images/truckclipart.png" alt="Picture of a truck">
+        </picture>
+        <p class="spotSlogan">"We get it there for you!"</p>
+        <p>______________________</p>
+        <p class="spotContact">hello@transport.com</p>
+        <p>+999-999-9999</p>
       </div>
+
       <div class="spotlight2">
-        <h2>Spotlight 2</h2>
+        <h2>Code Primera</h2>
+        <picture>
+            <img src="images/booksClipart.webp" alt="Picture of three books">
+        </picture>
+        <p class="spotSlogan">A after-school coding instructional program.</p>
+        <p>______________________</p>
+        <p class="spotContact">contact@primera.com</p>
+        <p>+999-999-9999</p>
       </div>
+
       <div class="spotlight3">
-        <h2>Spotlight 3</h2>
+        <h2>Build A Treefort</h2>
+        <picture>
+            <img src="images/treeHouseClipart.webp" alt="Picture of a tree house">
+        </picture>
+        <p class="spotSlogan">Over 1000 Plans!</p>
+        <p>______________________</p>
+        <p class="spotContact">builda@treefort.com</p>
+        <p>+888-888-8888</p>
       </div>
+
     </div>
 
   </main>
@@ -137,7 +179,7 @@
       <p>(505) 892-1533</p>
       <p>
         <a href="https://www.google.com/maps/place/Rio+Rancho+Regional+Chamber+of+Commerce/@35.2523494,-106.6546736,17z/data=!3m1!4b1!4m5!3m4!1s0x872270e93b2da94b:0x6587b511b39a749a!8m2!3d35.252345!4d-106.6524796" target="_blank">
-          <img src="images/location.png" alt="Location of Rio Rancho Chamber of Commerce ">
+          <img src="images/location48px.webp" alt="Location of Rio Rancho Chamber of Commerce ">
         </a>
         Location Map
       </p>
@@ -157,6 +199,7 @@
 
   <script src="scripts/date.js"></script>
   <script src="scripts/menu.js"></script>
+  <script src="scripts/windchill.js"></script>
   
 </body>
 </html>
