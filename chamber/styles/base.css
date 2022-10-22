@@ -94,12 +94,11 @@ header {
 /*        SOCIAL        */
 /* ******************** */
 
-.social {
-  padding-right: 1rem;
-}
 
 .social img {
+  width: 20%;
   align-items: flex-start;
+  
 }
 
 a:link {
@@ -256,10 +255,15 @@ main h2 {
   margin: 0;
 }
 
-.spotlight div {
+.spotlight1, .spotlight2, .spotlight3 {
   border: 1px solid #960b0b;
   background-color: #f7efd1;
+  padding: 0 0.5rem;
 } 
+
+.spotlight1 img{
+padding: 5px 0;
+}
 
 .join {
   display: none;
@@ -277,23 +281,25 @@ main h2 {
   font-size: 2rem;
   font-weight: bold;
 }
-.weather-center {
+
+.box-center {
   border: none;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
 }
-.weather-bottom {
+.box-bottom {
   border: none;
   border-top: 2px solid black;
-  padding: 1rem 0;
 }
 
 .weather p{
   margin: 0;
 }
 
-
+.joinBox {
+  margin: 0 0.5rem;
+}
 /* ********************* */
 /*         FOOTER        */
 /* ********************* */
