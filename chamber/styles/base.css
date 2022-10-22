@@ -282,10 +282,10 @@ padding: 5px 0;
   font-weight: bold;
 }
 
-.box-center {
+.box-center h3{
   border: none;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 .box-bottom {
