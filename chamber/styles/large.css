@@ -28,7 +28,7 @@
 
   nav ul{
     display: flex;
-    padding: .5rem 1rem;
+    /* padding: .5rem 1rem; */
   }
 
   nav ul li a{

@@ -1,0 +1,18 @@
+body {
+  font-size: 16px;
+  text-align: center;
+}
+
+picture {
+  display: block;
+  padding-top: 3rem;
+}
+
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
