@@ -329,11 +329,17 @@ padding: 20px 0;
   font-size: 1.4rem;
 }
 
-.discover h3 {
+.discover h2{
   background-color: #f7efd1;
   padding: 1rem;
   text-align: center;
 }
+
+.discover h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
 .discover p {
   margin: auto 0;
   padding: 2rem;
