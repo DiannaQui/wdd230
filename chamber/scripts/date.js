@@ -15,3 +15,24 @@ if (today < 1 || today > 2) {
     const banner = document.querySelector('.joinUs');
     banner.remove();
 } 
+
+
+// ///////////// //
+//  LAST VISIT   //
+// ///////////// //
+
+let dayBefore = localStorage.getItem('date');
+
+localStorage.setItem('date', day);
+
+dayBefore = Date.parse(dayBefore);
+
+const number_mSdayS = (day - dayBefore)/86400000;
+
+
+if (!number_mSdayS) {
+    document.querySelector("#lastVisit").textContent = 0
+}
+else {
+    document.querySelector("#lastVisit").textContent = number_mSdayS.toFixed(0);
+}

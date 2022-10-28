@@ -94,11 +94,12 @@ header {
 /*        SOCIAL        */
 /* ******************** */
 
+/* .social {
+  text-align: end;
+} */
 
 .social img {
   width: 20%;
-  align-items: flex-start;
-  
 }
 
 a:link {
@@ -183,7 +184,7 @@ nav ul.open {
 
 
 /* ******************** */
-/*         MAIN         */
+/*     MAIN  CHAMBER    */
 /* ******************** */
 
 main {
@@ -191,6 +192,11 @@ main {
   grid-template-columns: 98%;
   grid-gap: 5px;
   padding: 0.5rem 0;
+}
+
+main img {
+  width: 100px;
+  height: auto;
 }
 
 .event, .weather, .hero, .news, .join, .spotlight {
@@ -262,7 +268,7 @@ main h2 {
 } 
 
 .spotlight1 img{
-padding: 5px 0;
+padding: 20px 0;
 }
 
 .join {
@@ -301,6 +307,43 @@ padding: 5px 0;
   margin: 0 0.5rem;
 }
 
+/* ******************** */
+/*     MAIN  DISCOVER   */
+/* ******************** */
+
+.discover {
+  display: block;
+}
+
+.discover img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.discover section {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #f7efd1;
+  margin-bottom: 2rem;
+  justify-items: center;
+  font-size: 1.4rem;
+}
+
+.discover h3 {
+  background-color: #f7efd1;
+  padding: 1rem;
+  text-align: center;
+}
+.discover p {
+  margin: auto 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dayBefore p {
+  font-size: 2rem;
+  font-weight: bolder;
+}
 
 /* ********************* */
 /*         FOOTER        */
@@ -350,6 +393,10 @@ footer p {
   height: auto;
   }
 
+.mapfooter img {
+    width: 3rem;
+    height: auto;
+  }
 
 /* ********************* */
 /*     FOOTER  JAVAS     */

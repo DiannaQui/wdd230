@@ -85,6 +85,12 @@
     grid-row: 1 / 4;
   }
 
+  .discover section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+    font-size: 1.4rem;
+  }
 
   /* ********************* */
   /*       FOOTER          */
