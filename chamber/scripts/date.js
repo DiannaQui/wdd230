@@ -1,3 +1,22 @@
+// ////////////// //
+// Hamburger Menu //
+// ////////////// //
+
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+  
+  }
+  
+  const x = document.getElementById('hamburgerBtn')
+  x.onclick = toggleMenu;
+
+
+// ////////////////// //
+// Time - Last Update //
+// ////////////////// //
+
+
 document.querySelector(".date").textContent = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(new Date());
 
 document.querySelector('#year').textContent = new Date().getFullYear();
