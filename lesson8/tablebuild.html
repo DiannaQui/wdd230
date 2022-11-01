@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Build and style a simple data table using SCOPE">
+    <title>Sales</title>
+    <link href="styles/tablecss.css" rel="stylesheet" type="text/css">
+  </head>
+
+<body>
+    <h1>HTML Table Build</h1>
+    <figure>
+      <table>
+          <thead>
+            <tr>
+              <th class="title" colspan="2" scope="colgroup">Sales</th>
+            </tr>
+            <tr>
+              <th scope="col">Month</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>July</td>
+              <td>3,000</td>
+            </tr>
+            <tr>
+              <td>August</td>
+              <td id="number">8,000</td>
+            </tr>
+            <tr>
+              <td>September</td>
+              <td>4,000</td>
+            </tr>
+            <tr>
+              <td>October</td>
+              <td>3,000</td>
+            </tr>
+            <tr>
+              <td>November</td>
+              <td>2,000</td>
+            </tr>
+        </tbody>
+      </table>
+      <figcaption>Table 1: Wasatch Sales</figcaption>
+    </figure>
+</body>
+
+</html>
