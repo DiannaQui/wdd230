@@ -1,26 +1,26 @@
 @media only screen and (min-width: 64em) {
 
-  /* ******************** */
-  /*     HEADER ORDER     */
-  /* ******************** */
+/* ******************** */
+/*     HEADER ORDER     */
+/* ******************** */
 
   .headertop :nth-child(1) { order: 1; }
   .headertop :nth-child(2) { order: 3; }
   .headertop :nth-child(3) { order: 2; }
 
 
-  /* ******************** */
-  /*         LOGO         */
-  /* ******************** */
+/* ******************** */
+/*         LOGO         */
+/* ******************** */
 
   .logo {
     margin-left: 1rem; 
   }
 
 
-  /* ********************* */
-  /*       HAMBURGER       */
-  /* ********************* */
+/* ********************* */
+/*       HAMBURGER       */
+/* ********************* */
 
   nav button {
     display: none;
@@ -40,9 +40,9 @@
   }
 
 
-  /* ********************* */
-  /*      MAIN SECTION     */
-  /* ********************* */
+/* ********************* */
+/*      MAIN SECTION     */
+/* ********************* */
 
   main {
     grid-template-columns: 22% 22% 22% 22%;
@@ -92,12 +92,37 @@
     font-size: 1.4rem;
   }
 
-  /* ********************* */
-  /*       FOOTER          */
-  /* ********************* */
+  .joinForm {
+    padding: 1rem;
+  }
+
+/* ********************* */
+/*          JOIN         */
+/* ********************* */
+
+  table {
+    display: contents;
+  }
+
+  .info {
+    padding-top: 4rem;
+  }
+
+/* ********************* */
+/*      THANK YOU        */
+/* ********************* */
+
+  .table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+/* ********************* */
+/*       FOOTER          */
+/* ********************* */
 
   .jsfooter {
-    flex-direction: row;
+    flex-direction: column;
   }
 
 }

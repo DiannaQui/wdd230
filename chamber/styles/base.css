@@ -4,6 +4,21 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+:root {
+  --goldenrod: #E6AC0E;
+  --white: #ffffff;
+  --sunburst: #9f862c;
+  --cornsilk: #F7EFD1;
+  --satingold: #b59b3d;
+  --davysgray: #555555;
+  --lightgray: #d4d4d4;
+  --black: #000000;
+  --blackTrans: rgba(0,0,0,0.3);
+  --darkred: #960B0B;
+  --darkblue: #0F0B96;
+  --sapreen: #397114;
+  --shadow: rgba(63, 65, 63, 0.5);
+}
 
 body {
   padding: 0;
@@ -23,15 +38,15 @@ body {
 .joinUs {
 	font-size: .5rem;
 	text-align: center;
-  border-top: 2px solid #9f862c;
-  border-left: 2px solid #9f862c;
-  border-bottom: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
-  background-color: #b59b3d;
+  border-top: 2px solid var(--sunburst);
+  border-left: 2px solid var(--sunburst);
+  border-bottom: 1px solid var(--white);
+  border-right: 1px solid var(--white);
+  background-color: var(--satingold);
 }
 
 header {
-  background-color: #ffdf6c;
+  background-color: var(--goldenrod);
   padding: 1rem 0;
 }
 
@@ -40,7 +55,7 @@ header {
 	display: flex;
   flex-direction: row;
 	justify-content: space-between;
-  background-color: #ffdf6c;
+  background-color: var(--goldenrod);
 }
 
 
@@ -117,11 +132,11 @@ nav button{
   background: transparent;
   border: none;
   font-size: 2.5rem;
-  color:#555;
+  color: var(--davysgray);
 }
 
 nav {
-  background-color: #ffdf6c;
+  background-color: var(--goldenrod);
   margin-right: .6rem;
 }
 
@@ -137,17 +152,17 @@ nav ul li a {
   font-size: 1.3rem;
 
   text-decoration: none;
-  color:#333;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--black); 
+  border-top: 1px solid var(--blackTrans);
 }
 
 nav ul li.active a {
-  background-color: rgba(0,0,0,0.2);
-  color: #fff;
+  background-color: var(--blackTrans);
+  color: var(--white);
 }
 
 nav ul li a:hover {
-  background-color: rgba(0,0,0,0.3);
+  background-color: var(--blackTrans);
 }
 
 nav ul { display: none; }
@@ -171,11 +186,11 @@ nav ul.open {
 .date {
   display: block;
   text-align: center;
-  border-top: 2px solid #9f862c;
-  border-left: 2px solid #9f862c;
-  border-bottom: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
-  background-color: #f7efd1;
+  border-top: 2px solid var(--sunburst);
+  border-left: 2px solid var(--sunburst);
+  border-bottom: 1px solid var(--white);
+  border-right: 1px solid var(--white);
+  background-color: var(--cornsilk);
   padding: 1px;
   margin: 0 1rem;
 } 
@@ -200,24 +215,24 @@ main img {
 .event, .weather, .hero, .news, .join, .spotlight {
   padding-top: .5em;
   font-size: 1.2rem;
-  border: 1px solid gray;
-  background-color: #f7efd1;
+  border: 1px solid var(--davysgray);
+  background-color: var(--cornsilk);
   text-align: center;
 }
 
 main h2 {
-  color: #960b0b;
+  color: var(--darkred);
   font-size: 1.5rem;
   margin: 0;
 }
 
 .linkMoreInfo {
-  color: rgb(5, 5, 176);
+  color: var(--darkblue);
   font-weight: bold;
 }
 
 .linkMoreInfo:hover {
-  color: #791b1b;
+  color: var(--darkred);
 }
 
 .event p {
@@ -233,7 +248,7 @@ main h2 {
   position: absolute;
   left: 10px;
   font-size: 1.7rem;
-  color: #d01717;
+  color: var(--darkred);
   margin: 0;
 }
 
@@ -260,8 +275,8 @@ main h2 {
 }
 
 .spotlight1, .spotlight2, .spotlight3 {
-  border: 1px solid #960b0b;
-  background-color: #f7efd1;
+  border: 1px solid var(--darkred);
+  background-color: var(--cornsilk);
   padding: 0 0.5rem;
 } 
 
@@ -294,7 +309,7 @@ padding: 20px 0;
 }
 .box-bottom {
   border: none;
-  border-top: 2px solid black;
+  border-top: 2px solid var(--black);
 }
 
 .weather p{
@@ -321,14 +336,14 @@ padding: 20px 0;
 .discover section {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #f7efd1;
+  background-color: var(--cornsilk);
   margin-bottom: 2rem;
   justify-items: center;
   font-size: 1.4rem;
 }
 
 .discover h2{
-  background-color: #f7efd1;
+  background-color: var(--cornsilk);
   padding: 1rem;
   text-align: center;
 }
@@ -349,6 +364,145 @@ padding: 20px 0;
   font-weight: bolder;
 }
 
+/* ******************** */
+/*   MEMBERSHIP TABLE   */
+/* ******************** */
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+thead {
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+td {
+  text-align: center;
+}
+
+.title {
+  background-color: rgb(161, 168, 171);
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgba(205, 228, 247, 0.737);
+}
+
+table {
+  display: none;
+}
+
+/* ******************** */
+/*       MAIN  FORM     */
+/* ******************** */
+
+form {
+  margin: 0 1rem;
+}
+
+.joinForm {
+  display: block;
+  margin: 0 auto;
+}
+
+.joinForm h1 {
+  text-align: center;
+}
+
+form fieldset {
+  border: 1.5px solid var(--black);
+  border-radius: 10px;
+}
+
+form legend {
+  color: var(--black);
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+form label.top, form div{
+  display: block;
+  padding: 0.5rem;
+  color: var(--black);
+  font-size: 1.5rem;
+}
+
+form label.top input{
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color:  var(--black);
+  width: 100%;
+  max-width: 20rem;
+  background-color: var(--lightgray);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 2%;
+  color:  var(--black);
+}
+
+form button.submitBtn {
+  border: none;
+  background-color: var(--darkred);
+  color: var(--white);
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: var(--darkred) solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: var(--sapreen) solid 6px;
+}
+
+form textarea {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+form label.sbs:hover {
+  background-color: var(--cornsilk);
+}
+
+.information {
+  font-size: 1rem;
+  line-height: 0;
+}
+
+
+/* ********************* */
+/*       THANK YOU       */
+/* ********************* */
+
+.thankyou {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 /* ********************* */
 /*         FOOTER        */
 /* ********************* */
@@ -356,10 +510,10 @@ padding: 20px 0;
 footer {
   display: grid;
   grid-template-columns: 98%;
-  background-color: #ffdf6c;
+  background-color: var(--goldenrod);
   justify-items: center;
   text-align: center;
-  box-shadow: -1px -1px 30px 20px rgba(63, 65, 63, 0.5);
+  box-shadow: -1px -1px 30px 20px var(--shadow);
 }
 
 .imagefooter {
@@ -404,7 +558,7 @@ footer p {
 .jsfooter {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid #b59b3d;
+  border-top: 1px solid var(--satingold);
 }
 
 .jsfooter1 {

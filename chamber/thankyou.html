@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rio Rancho Chamber of Commerce</title>
+  <meta name="description" content="Home page for the Rio Rancho Chamber of Commerce">
+
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Scheherazade+New&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="joinUs">
+      <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+    </div>
+
+    <div class="headertop">
+      <div class="logo">   
+        <picture>
+          <img src="images/rrcoclogo.webp" alt="Rio Rancho Chamber of Commerce Logo">
+        </picture>
+
+        <section class="headings">
+          <h2>Rio Rancho</h2>
+          <h3>Chamber of Commerce</h3>
+        </section>
+      </div>
+
+      <div class="social">
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="images/youtube.svg" alt="YouTube Icon">
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="images/instagram.svg" alt="Instagram Icon">
+        </a>
+      </div>
+      
+      <div class="menu"> 
+        <nav>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>    
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="date">
+      <p class="date"></p>
+    </div>
+
+  </header>
+
+  
+  <main class="thankyou">
+        <h1>Thank you <span class="memberName"></span></h1>
+        <p>We are happy that you have applied to become a member of Rio Rancho Chamber of Commerce.</p>
+        <p>You will receive an email confirmation at <span class="emailConfirmation"></span> once your application has been finished.</p>
+        <p>The phone number we will call you if something is nedded is: <span class="phoneMember"></span></p>
+  </main>
+
+  <footer>
+    <div class="logo">
+      <picture>
+        <img src="images/rrcoclogo.webp" alt="Rio Rancho Chamber of Commerce Logo">
+      </picture>
+    </div>
+
+    <div class="namefooter">
+      <p>Rio Rancho Chamber of Commerce</p>
+      <p>4201 Crestview Dr SE, Rio Rancho, NM 87124</p>
+    </div>
+
+    <div class="mapfooter">
+      <p>https://www.rioranchococ.com</p>
+      <p>(505) 892-1533</p>
+      <p>
+        <a href="https://www.google.com/maps/place/Rio+Rancho+Regional+Chamber+of+Commerce/@35.2523494,-106.6546736,17z/data=!3m1!4b1!4m5!3m4!1s0x872270e93b2da94b:0x6587b511b39a749a!8m2!3d35.252345!4d-106.6524796" target="_blank">
+          <img src="images/location.svg" alt="Location of Rio Rancho Chamber of Commerce ">
+        </a>
+        Location Map
+      </p>
+    </div>
+
+    <div class="jsfooter">
+      <div class="jsfooter1">
+        <p>&copy; <span id="year"> </span> Rio Rancho Chamber </p>
+        <p>Diana Quispe</p>
+        <p>WDD 230 Project</p>
+      </div>
+      <div>
+        <p id="lastupdated"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/date.js"></script>
+  
+</body>
+</html>

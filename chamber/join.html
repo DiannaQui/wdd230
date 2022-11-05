@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join page on the Rio Rancho Chamber of Commerce Site</title>
+  <meta name="description" content="The purpose of this page is for the prospective user to apply to join the chamber of commerce through a membership application form. ">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Scheherazade+New&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="joinUs">
+      <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+    </div>
+
+    <div class="headertop">
+      <div class="logo">   
+        <picture>
+          <img src="images/rrcoclogo.webp" alt="Rio Rancho Chamber of Commerce Logo">
+        </picture>
+
+        <section class="headings">
+          <h2>Rio Rancho</h2>
+          <h3>Chamber of Commerce</h3>
+        </section>
+      </div>
+
+      <div class="social">
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="images/youtube.svg" alt="YouTube Icon">
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="images/instagram.svg" alt="Instagram Icon">
+        </a>
+      </div>
+      
+      <div class="menu"> 
+        <nav>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>    
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="date">
+      <p class="date"></p>
+    </div>
+  </header>
+
+
+  <!-- ................. -->
+  <!-- ...    MAIN   ... -->
+  <!-- ................. -->
+  
+  <main class="joinForm">
+    <h1>Join our Rio Rancho Chamber of Commerce</h1>
+
+    <div class="table">
+      
+      <div class="info">
+        <table>
+            <thead class="title">
+              <tr>
+                <th scope="col">MEMBERSHIP<br>BENEFITS</th>
+                <th scope="col">NonProfit<br>No Fee</th>
+                <th scope="col">Bronze <br>Membership<br>$50 Yearly</th>
+                <th scope="col">Silver <br>Membership<br>$100 Yearly</th>
+                <th scope="col">Gold <br>Membership<br>$250 Yearly</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Enhanced Business Profile</th>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th scope="row">Online Visibilty Report</th>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th scope="row">Chamber News Letter</th>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th scope="row">Exclusive Deals & Discounts</th>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th scope="row">Employee Benefits Program</th>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th scope="row">List your Business on Chamber Deals</th>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th scope="row">Press Release Credibility Booster</th>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" colspan="5" class="title">STAND OUT AND GET FOUND</th>
+                </tr>
+                <tr>
+                    <th>Top Placement in Local Area</th>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th>Dispute Negative reviews</th>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th>Ads on Competitor Listing</th>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <th>Up to 15 Photos</th>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+      </div>
+
+      <form method="get" action="thankyou.html">
+          <fieldset>
+              <legend>Applicant Information</legend>
+              <label class="top">First Name✵ <input type="text" name="firstName"  id="fName" required></label>
+              <label class="top">Last Name✵ <input type="text" name="lastName" id="lName" required></label>
+              <label class="top">Business position title <input type="text" name="businessPosition" title="(Alpha characters, hyphens, and spaces with a minimum of seven characters)" pattern="[-A-Za-z0-9\s]{7,}"><span class="information"> Only accepts alpha characters, hyphens, and spaces with a minimum of seven characters</span></label>
+              <label class="top">Email✵ <input type="email" name="email" id="emailMember" placeholder="email-name@gmail.com" required></label>
+              <label class="top">Cell Phone✵ <input type="tel" name="cellPhone" id="cellMember" placeholder="5551112222" required></label>
+              <label class="top">Business Name✵ <input type="text" name="businessName" required></label>
+          </fieldset>     
+
+          <fieldset>
+              <legend>Membership Level</legend>
+              <label class="sbs"><input type="radio" name="membership" value="np"> Non Profit</label>
+              <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
+              <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
+              <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Business Description</legend>
+            <label class="top">
+              <span>Briefly describe your business: </span>
+              <textarea name="description" rows="10" cols="30"></textarea>
+            </label>
+          </fieldset>
+
+          <div>
+            <p hidden>Current Date and time: <span class="joinDate"></span></p>
+          </div>
+
+          <button type="submit" class="submitBtn">Join Now</button>
+      </form>  
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="logo">
+      <picture>
+        <img src="images/rrcoclogo.webp" alt="Rio Rancho Chamber of Commerce Logo">
+      </picture>
+    </div>
+
+    <div class="namefooter">
+      <p>Rio Rancho Chamber of Commerce</p>
+      <p>4201 Crestview Dr SE, Rio Rancho, NM 87124</p>
+    </div>
+
+    <div class="mapfooter">
+      <p>https://www.rioranchococ.com</p>
+      <p>(505) 892-1533</p>
+      <p>
+        <a href="https://www.google.com/maps/place/Rio+Rancho+Regional+Chamber+of+Commerce/@35.2523494,-106.6546736,17z/data=!3m1!4b1!4m5!3m4!1s0x872270e93b2da94b:0x6587b511b39a749a!8m2!3d35.252345!4d-106.6524796" target="_blank">
+          <img src="images/location.svg" alt="Location of Rio Rancho Chamber of Commerce ">
+        </a>
+        Location Map
+      </p>
+    </div>
+
+    <div class="jsfooter">
+      <div class="jsfooter1">
+        <p>&copy; <span id="year"> </span> Rio Rancho Chamber </p>
+        <p>Diana Quispe</p>
+        <p>WDD 230 Project</p>
+      </div>
+      <div>
+        <p id="lastupdated"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/date.js"></script>
+  
+</body>
+</html>
