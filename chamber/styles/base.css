@@ -18,6 +18,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   --darkblue: #0F0B96;
   --sapreen: #397114;
   --shadow: rgba(63, 65, 63, 0.5);
+  --silver: rgb(200,200,200);
+  --lightyellow: rgb(238, 238, 224);
 }
 
 body {
@@ -370,7 +372,6 @@ padding: 20px 0;
 
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(200,200,200);
   letter-spacing: 0.5px;
   text-align: left;
 }
@@ -380,7 +381,7 @@ thead {
 }
 
 td, th {
-  border: 1px solid rgb(190,190,190);
+  border: 1px solid var(--silver);
   padding: 10px 20px;
 }
 
@@ -389,15 +390,15 @@ td {
 }
 
 .title {
-  background-color: rgb(161, 168, 171);
+  background-color: var(--cornsilk);
 }
 
 tr:nth-child(even) td {
-  background-color: rgb(250,250,250);
+  background-color: var(--lightyellow);
 }
 
 tr:nth-child(odd) td {
-  background-color: rgba(205, 228, 247, 0.737);
+  background-color: var(--lightgray);
 }
 
 table {
