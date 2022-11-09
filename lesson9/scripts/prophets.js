@@ -10,7 +10,7 @@ const displayProphets = (dataProphets) => {
       let portrait = document.createElement('img');
 
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
-      h3.textContent = `Date of Birth: ${prophet.birthdate}`;
+      h3.innerHTML = `Date of Birth: <br> ${prophet.birthdate}`;
       h4.textContent = `Place of Birth: ${prophet.birthplace}`;
 
       let suffix = '';
