@@ -13,7 +13,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   --davysgray: #555555;
   --lightgray: #d4d4d4;
   --black: #000000;
-  --blackTrans: rgba(0,0,0,0.3);
+  --blackTrans: rgba(0,0,0,0.2);
   --darkred: #960B0B;
   --darkblue: #0F0B96;
   --sapreen: #397114;
@@ -28,7 +28,7 @@ body {
   line-height: 1.5;
   font-family: 'Scheherazade New', serif;
   max-width: 1050px;
-  margin: 0 auto;
+  margin: 1.5rem auto;
   font-display: swap;
 }
 
@@ -44,7 +44,8 @@ body {
   border-left: 2px solid var(--sunburst);
   border-bottom: 1px solid var(--white);
   border-right: 1px solid var(--white);
-  background-color: var(--satingold);
+  background-color: var(--lightgray);
+  margin: 0.3rem;
 }
 
 header {
@@ -371,22 +372,17 @@ padding: 20px 0;
 /* ******************** */
 
 table {
-  border-collapse: collapse;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
   text-align: left;
 }
 
-thead {
+thead, td {
   text-align: center;
 }
 
 td, th {
   border: 1px solid var(--silver);
   padding: 10px 20px;
-}
-
-td {
-  text-align: center;
 }
 
 .title {
