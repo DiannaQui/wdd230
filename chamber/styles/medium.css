@@ -4,7 +4,7 @@
 /*      MAIN SECTION     */
 /* ********************* */
 
-  main {
+  .mainChamber {
     grid-template-columns: 23% 25% 25% 25%;
   }
 

@@ -44,7 +44,7 @@
 /*      MAIN SECTION     */
 /* ********************* */
 
-  main {
+  .mainChamber {
     grid-template-columns: 22% 22% 22% 22%;
     justify-content: center;
   }
@@ -116,6 +116,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+/* ********************* */
+/*       DIRECTORY       */
+/* ********************* */
+
+.list section {
+  flex-direction: row;
+  max-width: 60rem;
+}
+
 
 /* ********************* */
 /*       FOOTER          */

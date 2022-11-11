@@ -1,0 +1,76 @@
+{ 
+  "companies": [
+    {
+      "name": "Nanno",
+      "address": "253 Tranan Street San Francisco, CA 45698",
+      "phoneNumber": "1 (844) 256-2569",
+      "URL": "https://www.nanno.com/",
+      "image": "images/directoryNanno.svg",
+      "membershipLevel": 1
+    }, 
+    {
+      "name": "Leaf",
+      "address": "134 Bob Street Lane, St. Robert, MO 65584",
+      "phoneNumber": "1 (789) 526-3652",
+      "URL": "https://www.leaf.com/",
+      "image": "images/directoryLeaf.svg",
+      "membershipLevel": 1
+    },
+    {
+      "name": "RedB",
+      "address": "90210 Broadway Blvd. Nashville, TN 37011",
+      "phoneNumber": "1 (896) 456-1425",
+      "URL": "https://www.red.com/",
+      "image": "images/directoryRedBrain.svg",
+      "membershipLevel": 2
+    },
+    {
+      "name": "Pi",
+      "address": "4455 Landing Lange, Louisville, KY 40018",
+      "phoneNumber": "1 (695) 253-1203",
+      "URL": "https://www.pi.com/",
+      "image": "images/directoryPi.svg",
+      "membershipLevel": 2
+    },   
+    {
+      "name": "Ribbon",
+      "address": "1600 Amphitheatre Mountain St. CA 94043",
+      "phoneNumber": "1 (852) 102-7596",
+      "URL": "https://www.ribbon.com/",
+      "image": "images/directoryRibbon.svg",
+      "membershipLevel": 2
+    },
+    {
+      "name": "RedCheck",
+      "address": "SGT 6543 North 9th Street APO, AA 33608",
+      "phoneNumber": "1 (112) 362-8523",
+      "URL": "https://www.redCheck.com/",
+      "image": "images/directoryRedCheck.svg",
+      "membershipLevel": 3
+    },
+    {
+      "name": "Scales",
+      "address": "2117 St. SE Corner Washington DC 20020",
+      "phoneNumber": "1 (369) 100-1237",
+      "URL": "https://www.scales.com/",
+      "image": "images/directoryScales.svg",
+      "membershipLevel": 3
+    },
+    {
+      "name": "Silhouette",
+      "address": "123 North M. Street, New York, NY 10010",
+      "phoneNumber": "1 (369) 258-1470",
+      "URL": "https://www.silhouette.com/",
+      "image": "images/directorySilhouette.svg",
+      "membershipLevel": 3
+    },
+    {
+      "name": "Sun Symbol",
+      "address": "1021 Main Street, Austin, TX 787321",
+      "phoneNumber": "1 (987) 637-2030",
+      "URL": "https://www.sunS.com/",
+      "image": "images/directorySunSymbol.svg",
+      "membershipLevel": 3
+    }
+  ]
+}

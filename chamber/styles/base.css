@@ -203,14 +203,14 @@ nav ul.open {
 /*     MAIN  CHAMBER    */
 /* ******************** */
 
-main {
+.mainChamber {
   display:grid;
   grid-template-columns: 98%;
   grid-gap: 5px;
   padding: 0.5rem 0;
 }
 
-main img {
+.mainChamber img {
   width: 100px;
   height: auto;
 }
@@ -223,7 +223,7 @@ main img {
   text-align: center;
 }
 
-main h2 {
+.mainChamber h2 {
   color: var(--darkred);
   font-size: 1.5rem;
   margin: 0;
@@ -310,6 +310,7 @@ padding: 20px 0;
   font-size: 1.1rem;
   font-weight: bold;
 }
+
 .box-bottom {
   border: none;
   border-top: 2px solid var(--black);
@@ -499,6 +500,98 @@ form label.sbs:hover {
   text-align: center;
   font-size: 1.5rem;
 }
+
+
+/* ********************* */
+/*       DIRECTORY       */
+/* ********************* */
+
+.menuDirectory {
+  text-align: center;
+}
+
+.menuDirectory button {
+	padding: 1rem;
+}
+
+.directory {
+	margin: 1rem auto;
+  position: relative;
+	text-align: center; 
+}
+
+.gridArticle {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+  gap: 1rem;
+}
+
+.gridArticle section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--lightyellow);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.gridArticle h3 {
+  display: none;
+}
+
+.gridArticle img {
+  width: auto;
+  height: 100px;
+  margin: 1rem;
+}
+
+.gridArticle p {
+  margin: 0;
+}
+
+.grid section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	background-color: var(--lightyellow);
+}
+
+.grid section h3 {
+  display: none;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex; 
+	flex-direction: column;
+  column-gap: 2rem;
+  width: 100%;
+	justify-content: flex-start;
+  max-width: 25rem;
+  font-size: 1.3rem;
+}
+
+.list section h3 {
+  display: contents;
+}
+
+.list section img {
+	display: none;
+} 
+
+.list section:nth-child(even) {
+  background-color: var(--lightgray);
+}
+
+#list img,
+#grid img {
+  width: 40px;
+}
+
 
 /* ********************* */
 /*         FOOTER        */
