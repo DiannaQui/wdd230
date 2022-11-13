@@ -120,23 +120,26 @@ const displayDirectory = (dataDirectory) => {
         let logo = document.createElement('img');
         let address = document.createElement('p');
         let phoneNumber = document.createElement('p');
-        let URL = document.createElement('p');
 
-        name.textContent = `${company.name}`;
+        let a = document.createElement('a');
+        let link = document.createTextNode(company.URL);
+        a.appendChild(link);
+        a.href = '#'
+
+        name.textContent = company.name;
 
         logo.setAttribute('src', company.image);
         logo.setAttribute('alt', `Photo of ${company.name}`);
         logo.setAttribute('loading', 'lazy');
   
-        address.textContent = `${company.address}`;
-        phoneNumber.textContent = `${company.phoneNumber}`;
-        URL.textContent = `${company.URL}`;
+        address.textContent = company.address;
+        phoneNumber.textContent = company.phoneNumber;
       
         card.appendChild(name);
         card.appendChild(logo);
         card.appendChild(address);
         card.appendChild(phoneNumber);
-        card.appendChild(URL);
+        card.appendChild(a);
   
         document.querySelector('.gridArticle').appendChild(card);
       }
