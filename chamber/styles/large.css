@@ -126,7 +126,7 @@
   max-width: 60rem;
 }
 
-.logoInside {
+/* .logoInside {
   display: grid;
   grid-column: 2 / 3;
   grid-row: 2 / 4;
@@ -135,7 +135,7 @@
 .logoInside img {
   width: 60%;
   height: auto;
-}
+} */
 
 /* ********************* */
 /*       FOOTER          */

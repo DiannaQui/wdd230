@@ -169,9 +169,11 @@ async function getDirectory() {
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector(".gridArticle");
+
 
 if (gridbutton || listbutton) {
+
+  const display = document.querySelector(".gridArticle");
 
   gridbutton.addEventListener("click", () => {
     display.classList.add("grid");
@@ -182,4 +184,5 @@ if (gridbutton || listbutton) {
     display.classList.add("list");
     display.classList.remove("grid");
   });
+
 }
