@@ -79,6 +79,22 @@
       "URL": "Chamber of Commerce",
       "image": "images/rr.svg",
       "membershipLevel": 4
+    },
+    {
+      "name": "SPOT AVAILABLE",
+      "address": "Be part of the",
+      "phoneNumber": "Rio Rancho",
+      "URL": "Chamber of Commerce",
+      "image": "images/rr.svg",
+      "membershipLevel": 4
+    },
+    {
+      "name": "SPOT AVAILABLE",
+      "address": "Be part of the",
+      "phoneNumber": "Rio Rancho",
+      "URL": "Chamber of Commerce",
+      "image": "images/rr.svg",
+      "membershipLevel": 4
     }
   ]
 }
