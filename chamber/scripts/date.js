@@ -171,7 +171,7 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector(".gridArticle");
 
-// if (gridbutton || listbutton) {
+if (gridbutton || listbutton) {
 
   gridbutton.addEventListener("click", () => {
     display.classList.add("grid");
@@ -182,4 +182,4 @@ const display = document.querySelector(".gridArticle");
     display.classList.add("list");
     display.classList.remove("grid");
   });
-// }
+}
