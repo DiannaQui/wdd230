@@ -1,0 +1,40 @@
+body {
+  max-width: 500px;
+  font-size: 16px;
+  margin: 2rem auto;
+  font-family: 'Scheherazade New', serif;
+}
+
+main {
+  border: 5px solid #E6AC0E;
+  padding: 0 3rem 3rem 3rem;
+  background-color: #F7EFD1;
+  font-size: 1.5rem;
+  
+}
+
+header {
+  text-align: center;
+  background-color:#E6AC0E;
+  padding: 1rem;
+  font-family: 'Patrick Hand', cursive;
+}
+
+h3 {
+  padding-top: 2rem;
+  margin: 0;
+}
+
+p {
+  padding-left: 3rem;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: #E6AC0E;
+  color: blue;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin-top: 4rem;
+}
