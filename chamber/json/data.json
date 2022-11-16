@@ -1,82 +1,82 @@
 { 
   "companies": [
     {
-      "name": "Nanno",
-      "address": "253 Tranan Street San Francisco, CA 45698",
-      "phoneNumber": "1 (844) 256-2569",
-      "URL": "https://www.nanno.com/",
-      "image": "images/directoryNanno.svg",
+      "name": "InnovAge New Mexico",
+      "address": "904 Las Lomas Rd NE Albuquerque, NM 87102",
+      "phoneNumber": "505-220-1041",
+      "URL": "https://www.innovage.com/",
+      "image": "images/directoryInnovAge.svg",
       "membershipLevel": 1
     }, 
     {
-      "name": "Leaf",
-      "address": "134 Bob Street Lane, St. Robert, MO 65584",
-      "phoneNumber": "1 (789) 526-3652",
-      "URL": "https://www.leaf.com/",
-      "image": "images/directoryLeaf.svg",
+      "name": "Honda",
+      "address": "2603 The American Rd SE Rio Rancho, NM 87124",
+      "phoneNumber": "505-898-0000",
+      "URL": "https://www.perfectionhonda.com/",
+      "image": "images/directoryHonda.svg",
       "membershipLevel": 1
     },
     {
-      "name": "RedB",
-      "address": "90210 Broadway Blvd. Nashville, TN 37011",
-      "phoneNumber": "1 (896) 456-1425",
-      "URL": "https://www.red.com/",
-      "image": "images/directoryRedBrain.svg",
-      "membershipLevel": 2
+      "name": "Farmers Insurance",
+      "address": "4351 Jager Dr NE Ste F Rio Rancho, NM 87144",
+      "phoneNumber": "505-771-3035",
+      "URL": "https://agents.farmers.com/",
+      "image": "images/directoryFarmers.svg",
+      "membershipLevel": 1
     },
     {
-      "name": "Pi",
-      "address": "4455 Landing Lange, Louisville, KY 40018",
-      "phoneNumber": "1 (695) 253-1203",
-      "URL": "https://www.pi.com/",
-      "image": "images/directoryPi.svg",
+      "name": "Coca Cola",
+      "address": "7901 Los Volcanes NW Albuquerque, NM 87121",
+      "phoneNumber": "505-352-3200",
+      "URL": "https://www.swirecc.com/",
+      "image": "images/directoryCocaCola.svg",
       "membershipLevel": 2
     },   
     {
-      "name": "Ribbon",
-      "address": "1600 Amphitheatre Mountain St. CA 94043",
-      "phoneNumber": "1 (852) 102-7596",
-      "URL": "https://www.ribbon.com/",
-      "image": "images/directoryRibbon.svg",
+      "name": "Mountain America ",
+      "address": "8021 Ventura St NE Albuquerque, NM 87109",
+      "phoneNumber": "505-856-7885",
+      "URL": "https://www.macu.com/",
+      "image": "images/directoryMountainAmerica.svg",
       "membershipLevel": 2
     },
     {
-      "name": "RedCheck",
-      "address": "SGT 6543 North 9th Street APO, AA 33608",
-      "phoneNumber": "1 (112) 362-8523",
-      "URL": "https://www.redCheck.com/",
-      "image": "images/directoryRedCheck.svg",
+      "name": "Waste Management",
+      "address": "402 Industrial Park NE Rio Rancho, NM 87124",
+      "phoneNumber": "505-891-6978",
+      "URL": "https://www.wm.com/",
+      "image": "images/directoryWM.svg",
       "membershipLevel": 3
     },
     {
-      "name": "Scales",
-      "address": "2117 St. SE Corner Washington DC 20020",
-      "phoneNumber": "1 (369) 100-1237",
-      "URL": "https://www.scales.com/",
-      "image": "images/directoryScales.svg",
+      "name": "Smith Food",
+      "address": "1000 Rio Rancho Blvd SE Rio Rancho, NM 87124",
+      "phoneNumber": "505-892-1791",
+      "URL": "https://www.smithsfoodanddrug.com/",
+      "image": "images/directorySmiths.svg",
       "membershipLevel": 3
     },
     {
-      "name": "Silhouette",
-      "address": "123 North M. Street, New York, NY 10010",
-      "phoneNumber": "1 (369) 258-1470",
-      "URL": "https://www.silhouette.com/",
-      "image": "images/directorySilhouette.svg",
+      "name": "UFC Gym",
+      "address": "1650 Rio Rancho SE Rio Rancho, NM 87124",
+      "phoneNumber": "505-994-4269",
+      "URL": "https://www.ufcgym.com/",
+      "image": "images/directoryUfcGym.svg",
       "membershipLevel": 3
     },
     {
-      "name": "Sun Symbol",
-      "address": "1021 Main Street, Austin, TX 787321",
-      "phoneNumber": "1 (987) 637-2030",
-      "URL": "https://www.sunS.com/",
-      "image": "images/directorySunSymbol.svg",
+      "name": "ADT",
+      "address": "8601 President NE Ste B Albuquerque, NM 87113",
+      "phoneNumber": "505-345-7575",
+      "URL": "https://www.adt.com/",
+      "image": "images/directoryAdt.svg",
       "membershipLevel": 3
     },
     {
       "name": "SPOT AVAILABLE",
       "address": "Be part of the",
       "phoneNumber": "Rio Rancho",
-      "URL": "Chamber of Commerce",
+      "URL": "#",
       "image": "images/rr.svg",
       "membershipLevel": 4
     },
@@ -84,7 +84,7 @@
       "name": "SPOT AVAILABLE",
       "address": "Be part of the",
       "phoneNumber": "Rio Rancho",
-      "URL": "Chamber of Commerce",
+      "URL": "#",
       "image": "images/rr.svg",
       "membershipLevel": 4
     },
@@ -92,7 +92,7 @@
       "name": "SPOT AVAILABLE",
       "address": "Be part of the",
       "phoneNumber": "Rio Rancho",
-      "URL": "Chamber of Commerce",
+      "URL": "#",
       "image": "images/rr.svg",
       "membershipLevel": 4
     }

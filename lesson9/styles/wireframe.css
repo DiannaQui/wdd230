@@ -30,10 +30,14 @@ h4 {
   margin: 0;
 }
 
-.return {
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
   background-color: #E6AC0E;
   color: blue;
   border-radius: 1rem;
   padding: 0 1rem;
-  float: right;
+  margin-top: 3rem;
+  justify-items: center;
 }

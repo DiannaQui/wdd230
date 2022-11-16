@@ -124,7 +124,8 @@ const displayDirectory = (dataDirectory) => {
         let a = document.createElement('a');
         let link = document.createTextNode(company.URL);
         a.appendChild(link);
-        a.href = '#'
+        a.href = company.URL;
+        a.target = '_blank';
 
         name.textContent = company.name;
 
