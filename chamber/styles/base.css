@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Patrick+Hand&display=swap');
+
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
@@ -24,9 +26,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 body {
   padding: 0;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.5;
-  font-family: 'Scheherazade New', serif;
+  font-family: 'Hahmlet', serif;
   max-width: 1050px;
   margin: 1.5rem auto;
 }
@@ -37,7 +39,7 @@ body {
 /* ******************** */
 
 .joinUs {
-	font-size: .5rem;
+	font-size: 0.5rem;
 	text-align: center;
   border-top: 2px solid var(--sunburst);
   border-left: 2px solid var(--sunburst);
@@ -151,7 +153,7 @@ nav ul {
 nav ul li a {
   display: block;
   padding: .8rem 2vw;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 
   text-decoration: none;
   color: var(--black); 
@@ -216,7 +218,7 @@ nav ul.open {
 
 .event, .weather, .hero, .news, .join, .spotlight {
   padding-top: .5em;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 1px solid var(--davysgray);
   background-color: var(--cornsilk);
   text-align: center;
@@ -224,7 +226,7 @@ nav ul.open {
 
 .mainChamber h2 {
   color: var(--darkred);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
@@ -249,7 +251,7 @@ nav ul.open {
 .welcome {
   position: absolute;
   left: 10px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: var(--darkred);
   margin: 0;
 }
@@ -263,7 +265,7 @@ nav ul.open {
   position: absolute;
   bottom: 20px;
   right: 10px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding: .3rem;
 }
 
@@ -299,7 +301,7 @@ padding: 20px 0;
   justify-content: space-around;
   align-items: center;
   border: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -342,7 +344,7 @@ padding: 20px 0;
   background-color: var(--cornsilk);
   margin-bottom: 2rem;
   justify-items: center;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 .discover h2{
@@ -353,7 +355,7 @@ padding: 20px 0;
 
 .discover h1{
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .discover p {
@@ -363,7 +365,7 @@ padding: 20px 0;
 }
 
 .dayBefore p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 
@@ -627,7 +629,7 @@ footer {
 
 footer p {
   margin: .2rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 
@@ -657,4 +659,5 @@ footer p {
 
 .jsfooter p {
   padding: 0 1rem;
+  font-size: 1rem;
 }
