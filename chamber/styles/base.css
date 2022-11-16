@@ -506,23 +506,8 @@ form label.sbs:hover {
 /*       DIRECTORY       */
 /* ********************* */
 
-.menuDirectory {
-  text-align: center;
-}
-
-.menuDirectory button {
-	padding: 1rem;
-}
-
 .directory {
-	margin: 1rem auto;
-  position: relative;
 	text-align: center; 
-  font-family: 'Hahmlet', serif;
-}
-
-.directory h1 {
-  font-family: 'Patrick Hand', cursive;
 }
 
 .gridArticle {
@@ -530,7 +515,6 @@ form label.sbs:hover {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
   gap: 1rem;
-  
 }
 
 .gridArticle section{
@@ -550,16 +534,10 @@ form label.sbs:hover {
 .gridArticle img {
   width: auto;
   height: 50px;
-  margin: 1rem;
-}
-
-.gridArticle p {
-  margin: 0;
 }
 
 .grid section {
 	border: 1px solid var(--blackTrans);
-	padding: 1rem;
 	background-color: var(--lightyellow);
 }
 
@@ -575,11 +553,8 @@ form label.sbs:hover {
 .list section {
 	display: flex; 
 	flex-direction: column;
-  column-gap: 2rem;
   width: 100%;
-	justify-content: flex-start;
   max-width: 25rem;
-  /* font-size: 1rem; */
 }
 
 .list section h3 {
@@ -597,6 +572,7 @@ form label.sbs:hover {
 #list img,
 #grid img {
   width: 40px;
+  margin: 1rem;
 }
 
 
