@@ -1,0 +1,44 @@
+:root {
+  --blue: rgb(24, 139, 205);
+  --lightblue: rgb(183, 216, 254);
+}
+
+body {
+  font-size: 16px;
+  max-width: fit-content;
+  margin: 3rem auto;
+  border: 5px solid var(--blue);
+  text-align: center; 
+}
+
+.weatherHeater h1 {
+ font-size: 3rem;
+ padding: 1rem;
+ background-color: var(--blue);
+ margin: 1rem;
+}
+
+.weatherInfo h2 {
+  text-decoration: underline;
+  font-size: 2rem;
+  padding-top: 2rem;
+  margin: 0;
+}
+
+.weatherInfo div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.weatherAPI {
+  background-color: var(--lightblue);
+  padding: 1rem 2rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.lonlat{
+  width: 90%;
+}
