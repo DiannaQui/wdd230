@@ -28,7 +28,6 @@
 
   nav ul{
     display: flex;
-    /* padding: .5rem 1rem; */
   }
 
   nav ul li a{
@@ -122,8 +121,12 @@
 /* ********************* */
 
 .list section {
-  flex-direction: row;
-  max-width: 100%;
+  display: grid;
+  grid-template-columns: 23% 25% 15% 35%;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  max-width: 98%;
 }
 
 /* ********************* */

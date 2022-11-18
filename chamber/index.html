@@ -20,7 +20,7 @@
 </head>
 
 <body>
-  <header>
+  <header> 
     <div class="joinUs">
       <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
     </div>
@@ -77,9 +77,7 @@
           <source media="(min-width: 550px)" srcset="images/medium-org1000x282.webp">
           <img src="images/small-org550x155.webp" alt="Welcome image of Rio Rancho Chamber of Commerce">
         </picture>
-        <button class="joinRRCOC joinBox">
-          Join the Chamber
-        </button>  
+        <a class="joinRRCOC joinBox" href="join.html" target="_blank">Join the Chamber</a>
       </div>
     </div>
 
@@ -91,23 +89,8 @@
 
     <div class="weather">
       <h2>Weather</h2>
-          <div class="weather-top">
-            <div>
-              <picture>
-                  <img src="images/weather.svg" alt="picture of sun and cloud"> 
-              </picture>
-            </div>
-            <div>
-              <p><span class="degrees"></span>°C</p>
-            </div>
-          </div>
-          <div class="box-center">
-            <h3>Partly Cloudy</h3>
-          </div>
-          <div class="box-bottom">
-            <p>Speed: <span class="speed"></span> km/h</p>
-            <p>Wind Chill: <span class="wind"></span></p>
-          </div>
+      <div class="weatherInfo"></div>
+      <p class="sourceWeather">Source: <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>  
     </div>
 
     <div class="news">
@@ -117,9 +100,7 @@
     </div>
 
     <div class="join">
-      <button class="joinBox">
-        Join Us!
-      </button>
+      <a class="joinBox" href="join.html" target="_blank">Join</a>
       <p>💎 Discover how to join the chamber of commerce and how it will benefit your organization!</p>
     </div>
 

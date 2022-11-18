@@ -260,14 +260,6 @@ nav ul.open {
   height: auto;
 }
 
-.joinRRCOC {
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
-  font-size: 1.1rem;
-  padding: .3rem;
-}
-
 .spotlight {
   display:grid;
   padding: 0.5rem;
@@ -291,19 +283,46 @@ padding: 20px 0;
   display: none;
 }
 
-.weather {
-  padding: 0 1rem;
+.weatherTop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
-.weather-top {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: none;
+.weatherTop img {
+  width: 50%;
+}
+
+.weatherInfo figcaption{
   font-size: 1.5rem;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+} 
+
+.sourceWeather{
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
+.lonlatGlobe {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  gap: 0.7rem;
+}
+
+.lonlatGlobe img {
+  padding: 1rem 0;
+  width: 25%;
+}
+
+.lonlatGlobe div{
+  text-align: left;
+  padding: 0 1rem;
+}
 .box-center h3{
   border: none;
   text-align: center;
@@ -320,8 +339,30 @@ padding: 20px 0;
   margin: 0;
 }
 
+.joinRRCOC {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
 .joinBox {
-  margin: 0 0.5rem;
+  border-top: 2px solid var(--satingold);
+  border-left: 2px solid var(--satingold);
+  border-bottom: 4px solid var(--satingold);
+  border-right: 4px solid var(--satingold);
+  background-color: var(--lightyellow);
+  padding: 0.5rem;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  color: var(--black);
+  font-weight: bolder;
+}
+
+.joinBox:hover {
+  border-top: 4px solid var(--satingold);
+  border-left: 4px solid var(--satingold);
+  border-bottom: 2px solid var(--satingold);
+  border-right: 2px solid var(--satingold);
 }
 
 /* ******************** */
@@ -515,6 +556,7 @@ form label.sbs:hover {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
   gap: 1rem;
+  margin: 2rem 0;
 }
 
 .gridArticle section{
