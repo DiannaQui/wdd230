@@ -48,7 +48,7 @@ const weather = document.querySelector('.weatherInfo');
     let longitude = document.createElement('p');
     let latitude = document.createElement('p');
 
-        // WEATHER ICON
+    // WEATHER ICON
 
     const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
     const desc = weatherData.weather[0].description;
