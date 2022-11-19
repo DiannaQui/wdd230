@@ -1,7 +1,5 @@
 const weather = document.querySelector('.weatherInfo');
 
-// if (weather) {
-  // const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=766cc4c5847dc1e46a5927930e1b85f6';
 
   //////////////////////////
   //  Capitalize letters  //
@@ -109,10 +107,5 @@ const weather = document.querySelector('.weatherInfo');
         console.log(error);
     }
   }
-  if (weather) {
-    // const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=766cc4c5847dc1e46a5927930e1b85f6';
-  console.log('inside');
-  apiFetch();
-  }
+  if (weather) { apiFetch(); }
 
-// }
