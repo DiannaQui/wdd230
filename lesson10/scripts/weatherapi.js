@@ -39,7 +39,7 @@ const weather = document.querySelector('.weatherInfo');
     currentText.textContent = 'Current condition & ICON';
 
     const tF = weatherData.main.temp.toFixed(0);
-    currentTemp.innerHTML = `The current temperature in Fairbanks, Alaska is <strong>${tF}</strong> &deg;F`;
+    currentTemp.innerHTML = `Current temperature in Fairbanks, Alaska is <strong>${tF}</strong> &deg;F`;
 
     weatherCard.appendChild(currentText);
     weatherCard.appendChild(currentTemp);
