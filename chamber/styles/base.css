@@ -53,21 +53,17 @@ header {
   padding: 1rem 0;
 }
 
+.headertop, h1, h2, .logo, .menuOrder { display: flex; }
+
 .headertop {
-	display: flex;
 	justify-content: space-between;
-  background-color: var(--secundaryGoldenRod);
   margin: auto 1rem;
 }
 
-.headings h1, h2 {
-	display: flex;
-  margin: 0.5rem;
-}
+h1, h2 { margin: 0.5rem; }
 
 /* LOGO */
 .logo {
-	display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
 }
@@ -86,10 +82,7 @@ header {
 a:link { text-decoration: none; }
 
 /* HAMBURGER */
-.menuOrder {
-  padding-top: 1rem;
-  display: flex;
-}
+.menuOrder { padding-top: 1rem; }
 
 nav button{
   background: transparent;
@@ -125,21 +118,21 @@ nav ul li.active a {
 
 nav ul li a:hover { background-color: var(--accent3BlackTransparent); }
 
-nav ul { display: none; }
+nav ul.open { text-align: left;}
 
-nav ul.open { 
-  display: block; 
-  text-align: left;
-}
+#hamburgerBtn span:nth-child(1), 
+#hamburgerBtn.open span:nth-child(2),
+nav ul.open,
+.date 
+{ display: block; }
 
-#hamburgerBtn span:nth-child(1) { display: block; }
-#hamburgerBtn span:nth-child(2) { display: none; }
-#hamburgerBtn.open span:nth-child(1) { display: none; }
-#hamburgerBtn.open span:nth-child(2) { display: block;}
+#hamburgerBtn span:nth-child(2), 
+#hamburgerBtn.open span:nth-child(1),
+nav ul 
+{ display: none; }
 
 /* DATE */
 .date {
-  display: block;
   background-color: var(--primaryCornsilk);
   letter-spacing: 2px;
   padding: 0.5rem;
@@ -147,9 +140,9 @@ nav ul.open {
 } 
 
 /* MAIN  CHAMBER */
+.mainChamber, .spotlight, .weatherInfo { display: grid; }
 
 .mainChamber {
-  display:grid;
   grid-template-columns: 98%;
   grid-gap: 5px;
   padding: 0.5rem 0;
@@ -197,10 +190,7 @@ nav ul.open {
   height: auto;
 }
 
-.spotlight {
-  display:grid;
-  padding: 0.5rem;
-} 
+.spotlight { padding: 0.5rem; } 
 
 .spotlight1, .spotlight2, .spotlight3 {
   border: 1px solid var(--accent2SunBurst);
@@ -213,12 +203,7 @@ nav ul.open {
   padding-bottom: 1rem;
 } 
 
-.join { display: none; }
-
-.weatherInfo {
-  display: grid;
-  justify-content: center;
-}
+.weatherInfo { justify-content: center; }
 
 .weatherInfo figure {
   border: 0.5rem solid var(--primaryCornsilk);
@@ -268,11 +253,11 @@ nav ul.open {
   border-right: 2px solid var(--secundaryGoldenRod);
 }
 
+.join { display: none; }
+
 /* MAIN DISCOVER  */
 .discover section {
-  display: block;
   display: grid;
-  grid-template-columns: 1fr;
   background-color: var(--primaryCornsilk);
   gap:1rem;
   padding: 2rem;
@@ -306,36 +291,36 @@ form fieldset {
   border-radius: 10px;
 }
 
+form label.sbs, form legend,
+form label.top, form div,
+form label.top input, textarea {
+  color:  var(--accent3Black);
+}
+
 form legend {
-  color: var(--accent3Black);
   margin: 0 1rem;
-  padding: 0 0.5rem;
+  padding: 1rem 0.5rem;
   font-size: 1.5rem;
 }
 
-form label.top, form div{
+form label.top, form div,
+form label.top input, textarea,
+form label.sbs {
   display: block;
-  padding: 0.5rem;
-  color: var(--accent3Black);
+  padding: .75rem 2%;
+}
+
+form label.top, form div{
   font-size: 1.2rem;
 }
 
 form label.top input, textarea{
-  display: block;
   font-size: 1rem;
   border: solid 1px #999;
   border-radius: 4px;
-  padding: .75rem;
-  color:  var(--accent3Black);
   width: 100%;
   max-width: 17rem;
   background-color: var(--accent3BlackTransparent);
-}
-
-form label.sbs {
-  display: block;
-  padding: .75rem 2%;
-  color:  var(--accent3Black);
 }
 
 form button.submitBtn {
@@ -371,9 +356,8 @@ form label.sbs:hover { background-color: var(--primaryCornsilk); }
   margin-bottom: 2rem;
 }
 
-.contact {
+.contact, .gridArticle {
   display: grid;
-  grid-template-columns: 1fr;
   align-items: center;
 }
 
@@ -391,7 +375,6 @@ form label.sbs:hover { background-color: var(--primaryCornsilk); }
 
 /*  DIRECTORY  */
 .gridArticle {
-	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   margin: 2rem 0;
@@ -412,14 +395,17 @@ form label.sbs:hover { background-color: var(--primaryCornsilk); }
   height: 50px;
 }
 
-.list {
+.list, .jsfooter, .jsfooter1 {
 	display: flex;
 	flex-direction: column;
 }
 
-.list section {
+.list section, footer {
   display: grid;
   padding: 0.5rem;
+}
+
+.list section {
   margin: 0 auto;
   border-radius: 1rem;
   width: 100%;
@@ -438,12 +424,10 @@ form label.sbs:hover { background-color: var(--primaryCornsilk); }
 
 /*  FOOTER  */
 footer {
-  display: grid;
   grid-template-columns: 98%;
   background-color: var(--secundaryGoldenRod);
   justify-items: center;
   box-shadow: -1px -1px 30px 20px var(--accent3BlackTransparent);
-  padding: 1rem;
 }
 
 .jsfooter { grid-column: 1 / -1; } 
@@ -453,15 +437,7 @@ footer {
     height: auto;
 }
 
-.jsfooter {
-  display: flex;
-  flex-direction: column;
+.jsfooter, .jsfooter1 {
   border-top: 1px solid var(--accent3BlackTransparent);
   column-gap: 1rem;
 }
-
-.jsfooter1 {
-  display: flex;
-  flex-direction: column;
-  column-gap: 1rem;
-} 

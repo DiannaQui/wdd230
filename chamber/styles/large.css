@@ -55,7 +55,6 @@
   }
 
   .discover section {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 3rem;
     font-size: 1.4rem;
@@ -64,7 +63,7 @@
   .joinForm { padding: 1rem; }
 
 /*   JOIN    */
-  table { display: contents; }
+  table { display: contents; } 
   .info { padding-top: 2rem; }
 
 /* THANK YOU  */
