@@ -71,8 +71,8 @@ const displayDirectory = (dataDirectory) => {
     dataDirectory.companies.forEach ( 
         company => {
         let card = document.createElement('section');
-        let name = document.createElement('h4');
         let logo = document.createElement('img');
+        let name = document.createElement('h4');
         let address = document.createElement('p');
         let phoneNumber = document.createElement('p');
         let a = document.createElement('a');
@@ -83,7 +83,6 @@ const displayDirectory = (dataDirectory) => {
         name.textContent = company.name;
         logo.setAttribute('src', company.image);
         logo.setAttribute('alt', `Photo of ${company.name}`);
-        logo.setAttribute('loading', 'lazy');
         address.textContent = company.address;
         phoneNumber.textContent = company.phoneNumber;
         card.appendChild(name);
@@ -91,7 +90,8 @@ const displayDirectory = (dataDirectory) => {
         card.appendChild(address);
         card.appendChild(phoneNumber);
         card.appendChild(a);
-        document.querySelector('.gridArticle').appendChild(card);
+        const cards = document.querySelector('.gridArticle');
+        if (cards) { cards.appendChild(card); }
       }
     )
   }
@@ -144,9 +144,8 @@ async function getDirectory() {
     const response = await fetch("./json/data.json");
     if (response.ok) {
       let data = await response.json();
-      console.log(data);
       if (dir) {displayDirectory(data); }
-      if (spotL) {shuffleSpotlight(data); }
+      if (spotL) {shuffleSpotlight(data); } 
     }
   }
   const dir = document.querySelector('.menuDirectory');

@@ -54,38 +54,28 @@ header {
 }
 
 .headertop {
-	padding: 5px 0;
 	display: flex;
 	justify-content: space-between;
   background-color: var(--secundaryGoldenRod);
   margin: auto 1rem;
 }
 
-.headings {
-  padding: 0.3rem;
-}
-
 .headings h1, h2 {
 	display: flex;
-	flex-direction: column;
-  margin: 0.5rem 0;
+  margin: 0.5rem;
 }
 
 /* LOGO */
 .logo {
 	display: flex;
   flex-wrap: wrap;
-	align-items: flex-start;
   align-content: flex-start;
 }
 
 .logo img {
 	width: 3.5rem;
 	height: auto;
-  margin-right: 0.5rem;
 }
-
-.logo picture { display: flex; }
 
 /* SOCIAL */
 .social a img{
@@ -153,7 +143,7 @@ nav ul.open {
   background-color: var(--primaryCornsilk);
   letter-spacing: 2px;
   padding: 0.5rem;
-  margin: 0 1rem;
+  margin: 1rem 1rem 0 1rem;
 } 
 
 /* MAIN  CHAMBER */
@@ -408,8 +398,6 @@ form label.sbs:hover { background-color: var(--primaryCornsilk); }
 }
 
 .gridArticle section{
-  display: flex;
-  flex-direction: column;
   align-items: center;
   background-color: var(--primaryCornsilk);
   border: 1px solid var(--accent3BlackTransparent);
@@ -421,12 +409,6 @@ form label.sbs:hover { background-color: var(--primaryCornsilk); }
 .gridArticle img {
   width: auto;
   height: 50px;
-  padding: 0.2rem;
-}
-
-.grid section {
-	border: 1px solid var(--accent3BlackTransparent);
-	background-color: var(--primaryCornsilk);
 }
 
 .list {
@@ -435,7 +417,10 @@ form label.sbs:hover { background-color: var(--primaryCornsilk); }
 }
 
 .list section {
-	display: flex; 
+  display: grid;
+  padding: 0.5rem;
+  margin: 0 auto;
+  border-radius: 1rem;
   width: 100%;
   max-width: 25rem;
 }

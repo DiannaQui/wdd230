@@ -74,12 +74,8 @@
   }
 
 /*   DIRECTORY   */
-  .list section {
-    display: grid;
+  .list section {  
     grid-template-columns: 23% 25% 15% 35%;
-    border-radius: 1rem;
-    text-align: center;
-    padding: 0.5rem;
     max-width: 98%;
   }
 

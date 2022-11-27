@@ -1,13 +1,28 @@
 { 
   "companies": [
     {
-      
+      "name": "Waste Management",
+      "address": "402 Industrial Park NE Rio Rancho, NM 87124",
+      "phoneNumber": "505-891-6978",
+      "URL": "https://www.wm.com/",
+      "image": "images/directoryWM.svg",
+      "membershipLevel": 1
+    },
+    {
+      "name": "ADT",
+      "address": "8601 President NE Ste B Albuquerque, NM 87113",
+      "phoneNumber": "505-345-7575",
+      "URL": "https://www.adt.com/",
+      "image": "images/directoryAdt.svg",
+      "membershipLevel": 1
+    },
+    {
       "name": "InnovAge New Mexico",
       "address": "904 Las Lomas Rd NE Albuquerque, NM 87102",
       "phoneNumber": "505-220-1041",
       "URL": "https://www.innovage.com/",
       "image": "images/directoryInnovAge.svg",
-      "membershipLevel": 1
+      "membershipLevel": 3
     }, 
     {
       "name": "Honda",
@@ -39,14 +54,6 @@
       "phoneNumber": "505-856-7885",
       "URL": "https://www.macu.com/",
       "image": "images/directoryMountainAmerica.svg",
-      "membershipLevel": 2
-    },
-    {
-      "name": "Waste Management",
-      "address": "402 Industrial Park NE Rio Rancho, NM 87124",
-      "phoneNumber": "505-891-6978",
-      "URL": "https://www.wm.com/",
-      "image": "images/directoryWM.svg",
       "membershipLevel": 3
     },
     {
@@ -63,14 +70,6 @@
       "phoneNumber": "505-994-4269",
       "URL": "https://www.ufcgym.com/",
       "image": "images/directoryUfcGym.svg",
-      "membershipLevel": 3
-    },
-    {
-      "name": "ADT",
-      "address": "8601 President NE Ste B Albuquerque, NM 87113",
-      "phoneNumber": "505-345-7575",
-      "URL": "https://www.adt.com/",
-      "image": "images/directoryAdt.svg",
       "membershipLevel": 3
     }
   ]
