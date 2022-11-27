@@ -1,6 +1,7 @@
 { 
   "companies": [
     {
+      
       "name": "InnovAge New Mexico",
       "address": "904 Las Lomas Rd NE Albuquerque, NM 87102",
       "phoneNumber": "505-220-1041",
@@ -22,7 +23,7 @@
       "phoneNumber": "505-771-3035",
       "URL": "https://agents.farmers.com/",
       "image": "images/directoryFarmers.svg",
-      "membershipLevel": 1
+      "membershipLevel": 3
     },
     {
       "name": "Coca Cola",
@@ -30,7 +31,7 @@
       "phoneNumber": "505-352-3200",
       "URL": "https://www.swirecc.com/",
       "image": "images/directoryCocaCola.svg",
-      "membershipLevel": 2
+      "membershipLevel": 4
     },   
     {
       "name": "Mountain America ",
@@ -54,7 +55,7 @@
       "phoneNumber": "505-892-1791",
       "URL": "https://www.smithsfoodanddrug.com/",
       "image": "images/directorySmiths.svg",
-      "membershipLevel": 3
+      "membershipLevel": 2
     },
     {
       "name": "UFC Gym",
@@ -71,30 +72,6 @@
       "URL": "https://www.adt.com/",
       "image": "images/directoryAdt.svg",
       "membershipLevel": 3
-    },
-    {
-      "name": "SPOT AVAILABLE",
-      "address": "Be part of the",
-      "phoneNumber": "RRCOC",
-      "URL": "#",
-      "image": "images/rr.svg",
-      "membershipLevel": 4
-    },
-    {
-      "name": "SPOT AVAILABLE",
-      "address": "Be part of the",
-      "phoneNumber": "RRCOC",
-      "URL": "#",
-      "image": "images/rr.svg",
-      "membershipLevel": 4
-    },
-    {
-      "name": "SPOT AVAILABLE",
-      "address": "Be part of the",
-      "phoneNumber": "RRCOC",
-      "URL": "#",
-      "image": "images/rr.svg",
-      "membershipLevel": 4
     }
   ]
 }

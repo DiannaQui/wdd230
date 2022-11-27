@@ -95,20 +95,21 @@ table {
 }
 
 .primary {
-  background-color: #fa0000;
+  background-color: #F7EFD1;
 }
 
 .secondary {
-  background-color: #ffdf6c;
+  background-color: #E6AC0E;
 }
 
 .accent1 {
-  background-color: #b59b3d;
+  background-color: #960B0B;
+  color: white;
 }
 
 .accent2 {
-  background-color: #960b0b;
-  color: white;
+  background-color: #9f862c;
+  
 }
 
 .accent3 {
@@ -116,16 +117,17 @@ table {
   color: white;
 }
 
-.size45 {
-  font-size: 45px;
+.accent4 {
+  background-color: white;
+  border: 1px solid black;
 }
 
-.size35 {
-  font-size: 35px;
+.size27 {
+  font-size: 27px;
 }
 
-.size30 {
-  font-size: 30px;
+.size16 {
+  font-size: 16px;
 }
 
 .size25 {

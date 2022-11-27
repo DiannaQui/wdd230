@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rio Rancho Chamber of Commerce</title>
-  <meta name="description" content="Thank you page for the Rio Rancho Chamber of Commerce">
+  <title>Contact page on the Rio Rancho Chamber of Commerce Site</title>
+  <meta name="description" content="The purpose of this page is for the prospective user to apply to join the chamber of commerce through a membership application form. ">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="styles/base.css">
@@ -61,15 +61,66 @@
     <div class="date taCenter"></div>
 
   </header>
+
+
+  <!-- ................. -->
+  <!-- ...    MAIN   ... -->
+  <!-- ................. -->
   
-  <main class="thankyou taCenter">
-        <h3>Thank you <span class="memberName"></span></h3>
-        <p>We are happy that you have applied to become a member of Rio Rancho Chamber of Commerce.</p>
-        <p>You will receive an email confirmation at <span class="emailConfirmation"></span> once your application has been finished.</p>
-        <p>The phone number we will call you if something is needed is: <span class="phoneMember"></span></p>
+  <main class="joinForm">
+    <h3 class="taCenter">Contact us</h3>
+  
+    <div class="contact">
+      
+      <div class="visit taCenter">
+        <h4>VISIT US</h4>
+        <p>Rio Rancho Chamber of Commerce</p>
+        <p>4201 Crestview Dr SE</p>
+        <p>100, NM 87124<p>
+        <hr>
+        <p>Monday - Thursday: 9:00 a.m. to 4:30 p.m.</p>
+        <p>Friday: By Appointment Only</p>
+      </div>
+
+      <div class="taCenter">
+        <h4>POINTS OF CONTACT</h4>
+        <h5>Jerry Schalow</h5>
+        <p>President & CEO<p>
+        <p>505-999-1831</p>
+        <h5>Ms. Alice Brousseau</h5>
+        <p>Vice President of Marketing</p>
+        <p>505-842-7182</p>
+        <h5>Mr. Mike Chelius</h5>
+        <p>Secretary Treasurer</p>
+        <p>505-998-3495</p>
+        <h5>Mr. Chris Monette</h5>
+        <p>Operations Manager</p>
+        <p>505-697-3106</p>				
+      </div>
+
+      <!-- ...    FORM   ... -->
+
+      <form method="get" action="contactUs.html">
+          <fieldset>
+              <legend>Get in Touch</legend>
+              <label class="top">First Name * <input type="text" name="firstNameContact"  required></label>
+              <label class="top">Last Name * <input type="text" name="lastNameContact" required></label>
+              <label class="top">Email * <input type="email" name="emailContact" placeholder="email-name@gmail.com" required></label>
+              <label class="top">Cell Phone * <input type="tel" name="cellPhoneContact" placeholder="5551112222" required></label>
+              <label class="top">Business Name <input type="text" name="businessNameContact"></label>
+              <label class="top">
+                <span> Comments/Questions</span> 
+                <textarea name="description" rows="10" cols="30"></textarea>
+              </label>
+          </fieldset>     
+          <button type="submit" class="submitBtn">Send your comments</button>
+      </form>  
+
+    </div>
+
   </main>
 
-  <footer>
+  <footer class="taCenter">
     <div class="logo">
       <picture>
         <img src="images/rrcocLogo.svg" alt="Rio Rancho Chamber of Commerce Logo">

@@ -1,32 +1,18 @@
 @media only screen and (min-width:34.5em) {
 
-/* ********************* */
-/*      MAIN SECTION     */
-/* ********************* */
+/*  MAIN  */
+  .mainChamber { grid-template-columns: 23% 25% 25% 25%;}
 
-  .mainChamber {
-    grid-template-columns: 23% 25% 25% 25%;
-  }
+  .hero { grid-column: 1 / -1; }
 
-  .hero {
-    grid-column: 1 / -1;
-    grid-row: 1;
-  }
-
-  .news {
-    grid-column: 1 / -1;
-    grid-row: 2;
-  }
+  .news { grid-column: 1 / -1;}
 
   .spotlight{
     grid-auto-flow: column;
     grid-column: 1 / 5;
-    grid-row: 3;
   }
 
-  .spotlight3 {
-    display: none;
-  } 
+  .spotlight3 { display: none; } 
 
   .join {
     display: grid;
@@ -44,50 +30,27 @@
     grid-row: 5;
   }
 
-
   .discover img:hover {
     filter: contrast(70%);
     border-radius: 150px 150px;
   }
 
-/* ******************** */
-/*       MAIN  FORM     */
-/* ******************** */
-
-  .joinForm {
-    padding: 4rem;
+  .welcome {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
   }
 
+/* CONTACT  */
+  .contact { flex-direction: row;}
 
-/* ********************* */
-/*         FOOTER        */
-/* ********************* */
+/* FORM  */
+  .joinForm { padding: 4rem; }
 
-  footer {
-    grid-template-columns: 10% 40% 1fr;
-  }
-
-  .imagefooter {
-    grid-column: 1 / 2;
-    grid-row: 1;
-  }
-
-  .namefooter {
-    grid-column: 2 / 3;
-    grid-row: 1;
-  }
-
-  .mapfooter {
-    grid-column: 3 / 4;
-    grid-row: 1;
-  }
-
-
-/* ********************* */
-/*     FOOTER  JAVAS     */
-/* ********************* */
-
-  .jsfooter1 {
-    flex-direction: row;
-  } 
+/* FOOTER  */
+  footer { grid-template-columns: 10% 40% 1fr; }
+  .imagefooter { grid-column: 1 / 2; }
+  .namefooter  { grid-column: 2 / 3; }
+  .mapfooter   { grid-column: 3 / 4; }
+  .jsfooter1   { flex-direction: row; } 
 }

@@ -1,48 +1,20 @@
 @media only screen and (min-width: 64em) {
 
-/* ******************** */
-/*     HEADER ORDER     */
-/* ******************** */
-
-  .headertop :nth-child(1) { order: 1; }
-  .headertop :nth-child(2) { order: 3; }
-  .headertop :nth-child(3) { order: 2; }
-
-
-/* ******************** */
-/*         LOGO         */
-/* ******************** */
-
-  .logo {
-    margin-left: 1rem; 
+/* HEADER ORDER */
+  .menuOrder {
+    flex-flow: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;
   }
 
+/*  HAMBURGER  */
+  nav button { display: none; }
+  nav ul { display: flex; }
+  nav ul li a { border: none; }
+  nav ul.open { display: flex; }
 
-/* ********************* */
-/*       HAMBURGER       */
-/* ********************* */
-
-  nav button {
-    display: none;
-  }
-
-  nav ul{
-    display: flex;
-  }
-
-  nav ul li a{
-    border: none;
-  }
-
-  nav ul.open{
-    display: flex;
-  }
-
-
-/* ********************* */
-/*      MAIN SECTION     */
-/* ********************* */
-
+/*   MAIN SECTION   */
   .mainChamber {
     grid-template-columns: 22% 22% 22% 22%;
     justify-content: center;
@@ -74,9 +46,7 @@
     grid-row: 3 / 4;
   }
 
-  .spotlight3 {
-    display: grid;
-  }
+  .spotlight3 { display: grid; }
 
   .spotlight {
     grid-auto-flow: row;
@@ -91,50 +61,31 @@
     font-size: 1.4rem;
   }
 
-  .joinForm {
-    padding: 1rem;
-  }
+  .joinForm { padding: 1rem; }
 
-/* ********************* */
-/*          JOIN         */
-/* ********************* */
+/*   JOIN    */
+  table { display: contents; }
+  .info { padding-top: 2rem; }
 
-  table {
-    display: contents;
-  }
-
-  .info {
-    padding-top: 4rem;
-  }
-
-/* ********************* */
-/*      THANK YOU        */
-/* ********************* */
-
+/* THANK YOU  */
   .table {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-/* ********************* */
-/*       DIRECTORY       */
-/* ********************* */
-
-.list section {
-  display: grid;
-  grid-template-columns: 23% 25% 15% 35%;
-  border-radius: 1rem;
-  text-align: center;
-  padding: 0.5rem;
-  max-width: 98%;
-}
-
-/* ********************* */
-/*       FOOTER          */
-/* ********************* */
-
-  .jsfooter {
-    flex-direction: column;
+/*   DIRECTORY   */
+  .list section {
+    display: grid;
+    grid-template-columns: 23% 25% 15% 35%;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    max-width: 98%;
   }
 
+/*  CONTACT  */
+  .contact { grid-template-columns: 1fr 1fr; }
+
+/*  FOOTER   */
+  .jsfooter { flex-direction: row; }
 }

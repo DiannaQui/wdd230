@@ -6,9 +6,7 @@
   <title>Rio Rancho Chamber of Commerce</title>
   <meta name="description" content="Home page for the Rio Rancho Chamber of Commerce">
 
-  <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/large.css">
@@ -17,7 +15,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
@@ -28,28 +26,24 @@
     </div>
 
     <div class="headertop">
+      
       <div class="logo">   
         <picture>
-          <img src="images/rrcoclogo.webp" alt="Rio Rancho Chamber of Commerce Logo">
+          <img src="images/rrcocLogo.svg" alt="Rio Rancho Chamber of Commerce Logo">
         </picture>
 
         <section class="headings">
-          <h2>Rio Rancho</h2>
-          <h3>Chamber of Commerce</h3>
+          <h1>Rio Rancho</h1>
+          <h2>Chamber Of Commerce</h2>
         </section>
       </div>
 
-      <div class="social">
-        <a href="https://www.youtube.com/" target="_blank">
-          <img src="images/youtube.svg" alt="YouTube Icon">
-        </a>
-
-        <a href="https://www.instagram.com/" target="_blank">
-          <img src="images/instagram.svg" alt="Instagram Icon">
-        </a>
-      </div>
-      
-      <div class="menu"> 
+      <div class="menuOrder">
+        <div class="social">
+          <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="YouTube Icon"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="Instagram Icon"></a>
+        </div>
+        
         <nav>
           <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
           <ul id="primaryNav">
@@ -57,46 +51,45 @@
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="#">Contact</a></li>    
+            <li><a href="contact.html">Contact</a></li>    
           </ul>
         </nav>
       </div>
+
     </div>
 
-    <div class="date">
-      <p class="date"></p>
-    </div>
+    <div class="date taCenter"></div>
 
   </header>
 
   
-  <main class="mainChamber">
+  <main class="mainChamber taCenter">
     <div class="hero">
-      <h1 class="welcome">Welcome to Rio Rancho</h1>
+      <h3 class="welcome">Welcome to Rio Rancho</h3>
       <div class="herodiv">
         <picture>
-          <source media="(min-width: 1024px)" srcset="images/large-org800x800.webp">
-          <source media="(min-width: 550px)" srcset="images/medium-org1000x282.webp">
-          <img src="images/small-org550x155.webp" alt="Welcome image of Rio Rancho Chamber of Commerce">
+          <source media="(min-width: 1024px)" srcset="images/RioR800x1100.webp">
+          <source media="(min-width: 550px)" srcset="images/RioR1000x500.webp">
+          <img src="images/RioR500x250.webp" alt="Welcome image of Rio Rancho Chamber of Commerce">
         </picture>
         <a class="joinRRCOC joinBox" href="join.html" target="_blank">Join the Chamber</a>
       </div>
     </div>
 
     <div class="event">
-      <h2>Fall Festival</h2>
+      <h4>Fall Festival</h4>
       <p>🌹Celebrate the fall season</p>
       <p> The festivities will again take place in City Center on Saturday. <a href="https://rrnm.gov/Calendar.aspx?EID=9555" target="_blank"><span class="linkMoreInfo">more info...</span></a></p>
     </div>
 
     <div class="weather">
-      <h2>Weather</h2>
+      <h4>Weather</h4>
       <div class="weatherInfo"></div>
       <p class="sourceWeather">Source: <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>  
     </div>
-
+    
     <div class="news">
-      <h2>News Release</h2>
+      <h4>News Release</h4>
       <p>🎈 Balloon Fiesta on the last day complete success 🎈</p>
       <p>The last day of Balloon Fiesta was highly anticipated but was a complete success. After a week of grounded balloons, the crowd was ecstatic when the green flag flew. </p>
     </div>
@@ -107,55 +100,17 @@
     </div>
 
     <div class="spotlight">
-      <div class="spotlight1">
-        <h2>Thankful Transport</h2>
-        <picture>
-            <img src="images/truck.svg" alt="Picture of a truck">
-        </picture>
-        <div class="box-center">
-         <h3>"We get it there for you!"</h3>
-        </div>
-        <div class="box-bottom">
-          <p>hello@transport.com</p>
-          <p>+999-999-9999</p>
-        </div>
-      </div>
-
-      <div class="spotlight2">
-        <h2>Code Primera</h2>
-        <picture>
-            <img src="images/books.svg" alt="Picture of three books">
-        </picture>
-        <div class="box-center">
-          <h3>A after-school coding</h3>
-        </div>
-        <div class="box-bottom">
-          <p>contact@primera.com</p>
-          <p>+999-999-9999</p>
-        </div>
-      </div>
-
-      <div class="spotlight3">
-        <h2>Build A Treefort</h2>
-        <picture>
-            <img src="images/treehouse.svg" alt="Picture of a tree house">
-        </picture>
-        <div class="box-center">
-          <h3>Over 1000 Plans!</h3>
-        </div>
-        <div class="box-bottom">
-          <p>builda@treefort.com</p>
-          <p>+888-888-8888</p>
-        </div>
-      </div>
-
+      <div class="spotlight1"> </div>
+      <div class="spotlight2"> </div>
+      <div class="spotlight3"> </div>
     </div>
+
   </main>
 
-  <footer>
+  <footer class="taCenter">
     <div class="logo">
       <picture>
-        <img src="images/rrcoclogo.webp" alt="Rio Rancho Chamber of Commerce Logo">
+        <img src="images/rrcocLogo.svg" alt="Rio Rancho Chamber of Commerce Logo">
       </picture>
     </div>
 
