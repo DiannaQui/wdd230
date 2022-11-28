@@ -432,6 +432,8 @@ footer {
 
 .jsfooter { grid-column: 1 / -1; } 
 
+.sourceWeather { grid-column: 1 / -1;}
+
 .mapfooter img {
     width: 2rem;
     height: auto;
