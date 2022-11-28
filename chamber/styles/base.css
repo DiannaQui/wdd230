@@ -433,6 +433,7 @@ footer {
 .jsfooter { grid-column: 1 / -1; } 
 
 .sourceWeather { grid-column: 1 / -1;}
+.sourceWeather p { font-size: 0.8rem; margin: 0;}
 
 .mapfooter img {
     width: 2rem;
