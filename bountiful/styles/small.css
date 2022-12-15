@@ -98,7 +98,7 @@ li { list-style-type: none; }
 
 /* heather */
 .heatherIndex, .footerIndex {
-  background-image: url('../images/strawberries1100x433.webp');
+  background-image: url('../images/strawberries.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--secundaryWhite);
