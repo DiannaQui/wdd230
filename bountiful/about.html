@@ -105,7 +105,7 @@
       <h4>(760) 334-7755</h4>
     </div>
 
-    <form method="get" class="formAbout">
+    <form method="dialog" onsubmit="aboutForm()" class="formAbout">
       <div class="formAboutInside">
         <fieldset class="costumerInfo">
             <legend>Your Information</legend>
@@ -123,7 +123,7 @@
           </label>
         </fieldset>
       </div>
-      <input type="button" value="Send your comments" class="submitBtnAbout" onclick="aboutForm()">
+      <input type="submit" value="Send your comments" class="submitBtnAbout">
       <h4 class="thankYou padding05">.</h4> 
     </form>
 
