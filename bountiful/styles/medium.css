@@ -1,0 +1,99 @@
+@media only screen and (min-width:34.5em) {
+
+  .mainIndex {grid-template-columns: repeat(2, 1fr);}
+
+  body {
+    font-size: 18px;
+  }
+
+  .logoAbout,
+  .beachAbout,
+  .hands,
+  .testimonial2,
+  #specialty2,
+  #specialty3,
+  #specialty4 {display: block;}
+
+  .cart,
+  .costumer,
+  .footerIndex { flex-direction: row; }
+
+  .one,
+  .two,
+  .specialty,
+  .fresh,
+  .three,
+  .beachTowns,
+  .four,
+  .five,
+  .testimonials,
+  .testimonialsLine,
+  .mobile,
+  .app,
+  .titleSpecialty,
+  .titleOrder,
+  .costumerInfoOrder,
+  .totalFruitChoices,
+  .infoContact,
+  .orderDate {grid-column: 1 / -1;}
+
+  .weather {
+    grid-column: 1 / 2;
+    grid-row: 3;
+  }
+
+  .infoIndex {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    border-left: 4px double var(--primaryDarkRed);
+  }
+
+  .infoIndex section {
+    margin-top: 2rem;
+    padding: 3rem;
+  }
+
+  .one {grid-row: 2;}
+  .two {grid-row: 4;}
+  .fresh {grid-row: 7;}
+  .three {grid-row: 8;}
+  .titleSpecialty {grid-row: 5;}
+  .specialty h5 {padding: 1rem;}
+
+  .specialty {
+    grid-template-columns: 1fr 1fr;
+    grid-row: 6;
+  }
+
+  .beachTowns {
+    grid-row: 9;
+    border: none;
+  }
+
+  .four { grid-row: 10;}
+  .testimonials {grid-row: 11;}
+  .testimonial2 p{margin: 2rem 0;}
+
+  .testimonialsLine {
+    grid-row: 12;
+    display: flex;
+    column-gap: 4rem;
+  }
+
+  .five {grid-row: 13;}
+  .mobile {grid-row: 14; }
+  .app {grid-row: 15; }
+  .cart {padding: 0 1rem;}
+  .footerIndex {justify-content: space-between;}
+  .cardInfoOrder {grid-row: 4;}
+  .totalFruitChoices {grid-row: 5;}
+  .formFresh {width: 450px; }
+
+  .displayOrder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .buttonRightLeft,
+  .six {display: none;}
+}

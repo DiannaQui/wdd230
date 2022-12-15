@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bountiful Foods - Fruit Drinks</title>
+  <meta name="description" content="Bountiful Foods, this company sells fruit drinks made from organic fruits">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="heatherIndex textAlignCenter">
+    <div class="logoTop">   
+      <picture class='logoImg textAlignLeft'>
+        <img src="images/earthEcology.svg" alt="Bountiful Foods Logo">
+      </picture>
+
+      <nav class="bountifulNav textAlignLeft">
+        <button class="navButton"><span>♻️</span></button>
+        <ul class='navUl bold margin0'>
+          <li><a class='padding1' href="index.html">🏘️ Home</a></li>
+          <li><a class='padding1' href="fresh.html">🍹 Fresh</a></li>
+          <li><a class='padding1' href="about.html">🌍 About</a></li>  
+        </ul>
+      </nav>
+    </div>
+
+    <div class="logoCenter">
+      <h1 class="welcome margin0">Welcome to <br> Bountiful Foods</h1>
+      <h2>1923 Calle Barcelona, Carlsbad, CA 92009</h2>
+      <h2>(760) 334-7755</h2>
+    </div>
+
+    <div class="freshButton bold">
+      <a href="fresh.html">Create a Mix</a>
+    </div>
+
+    <div class="cart gradiant">
+      <div class="cartInside">
+        <picture class="pictureCarts margin1">
+          <img src="images/cart.svg" alt="Cart">
+        </picture>
+        <p>Number of specialty drinks: <span class="numberSpecialtyDrinks">0</span></p>
+      </div>
+      <input type="button" value="Clear Order" class="clear" onclick="clearS()">
+    </div>
+
+  </header>
+
+  <main class="mainIndex textAlignCenter margin2">
+    
+    <div class="missionIndex">
+      <h3>Mission</h3>
+      <h4>The mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the local population and to tourists visiting the coastal areas. The theme should support healthy eating, organic bounty, and convenience.</h4>
+    </div>
+
+    <div class="one borderTop margin2">.</div>
+
+    <div class="infoIndex">
+      <section class="distribution">
+        <div class="horizontal gradiant">
+          <picture>
+            <img src="images/distribution.svg" alt="">
+          </picture>
+          <h4 class="margin0">Distribution</h4>
+        </div>
+        <h4>We are physically located in Carlsbad, California, however, we have many food trucks that cover the coastal area from Los Angeles to San Diego.</h4>
+      </section>
+
+      <section class="locallyGrow">
+        <div class="horizontal gradiant">
+          <picture>
+            <img src="images/locallyGrown.svg" alt="">
+          </picture>
+          <h4 class="margin0">Locally Grow</h4>
+        </div>
+        <h4>We sell fruit drinks and produce from the farmers in the area, but also uses some national and international suppliers.</h4>
+      </section>
+
+      <section class="delivery">
+        <div class="horizontal gradiant">
+          <picture>
+            <img src="images/drinkDelivery.svg" alt="">
+          </picture>
+          <h4 class="margin0">Drink Delivery</h4>
+        </div>
+        <h4>The owner walk in traffic at his storefront in Carlsbad and, his food trucks. We deliver and manage those orders on the phone and website.</h4>
+      </section>
+    </div>
+
+    <div class="two borderTop margin2">.</div>
+
+    <h3 class="titleSpecialty lineHeight3">Our specialty fruit drinks</h3>
+    
+    <div class="specialty">
+
+      <div id="specialty1">
+        <h4>StrawberrySunrise</h4>
+        <picture>
+          <img src="images/smoothie2.webp" alt="Picture of a Strawberry Sunrise smoothie" loading="lazy">
+        </picture>
+
+        <div class="specialtyOrderButtonNumber">
+          <p>
+            <input type="button" value="Order" class="specialtyOrderButton" onclick="specialtyOrder(1)">
+            <span class="drink1">0</span>
+          </p>
+        </div>
+
+        <h5>Banana, strawberries, yogurt, milk, honey, cinnamon and 1 cup ice</h5>
+        <p>Carbohydrates: 73g</p>
+        <p>Total Fat: 6g</p>
+        <p>Sugar: 56g</p>
+        <p>Calories: 373</p>
+      </div>
+
+      <div id="specialty2">
+        <h4>TropicalOatmeal</h4>
+        <picture>
+          <img src="images/smoothie1.webp" alt="Picture of a Tropical Oatmeal smoothie" loading="lazy">
+        </picture>
+
+        <div class="specialtyOrderButtonNumber">
+          <p>
+            <input type="button" value="Order" class="specialtyOrderButton" onclick="specialtyOrder(2)">
+            <span class="drink2">0</span>
+          </p>
+        </div>
+
+        <h5>This tropical smoothie is packed with fiber, thanks to the fruit and oats.</h5>
+        <p>Carbohydrates: 47g</p>
+        <p>Total Fat: 5g</p>
+        <p>Sugar: 24g</p>
+        <p>Calories: 240</p>
+      </div>
+
+      <div id="specialty3">
+        <h4>GreenBowl</h4>
+        <picture>
+          <img src="images/smoothie3.webp" alt="Picture of a Green Bowl smoothie" loading="lazy">
+        </picture>
+
+        <div class="specialtyOrderButtonNumber">
+          <p>
+            <input type="button" value="Order" class="specialtyOrderButton" onclick="specialtyOrder(3)">
+            <span class="drink3">0</span>
+          </p>
+        </div>
+
+        <h5>Delicious flavors, some days you just might crave more crunch.</h5>
+        <p>Carbohydrates: 33g</p>
+        <p>Total Fat: 15g</p>
+        <p>Sugar: 14g</p>
+        <p>Calories: 294</p>
+      </div>
+
+      <div id="specialty4">
+        <h4>BerryLicious</h4>
+        <picture>
+          <img src="images/smoothie4.webp" alt="Picture of a Berry-licious smoothie" loading="lazy">
+        </picture>
+
+        <div class="specialtyOrderButtonNumber">
+          <p>
+            <input type="button" value="Order" class="specialtyOrderButton" onclick="specialtyOrder(4)">
+            <span class="drink4">0</span>
+          </p>
+        </div>
+    
+        <h5>Transform your favorite smoothie by using chia seeds and dried dates.</h5>
+        <p>Carbohydrates: 37g</p>
+        <p>Total Fat: 1g</p>
+        <p>Sugar: 25g</p>
+        <p>Calories: 205</p>
+      </div>
+
+    </div>
+    <div class="sideButtons">
+      <div class="sideButtonsInside">
+        <div class="buttonRightLeft">
+          <p>
+            <input type="button" value=&#10094;&#10094; class="specialtyButtonSide" onclick="change(1)">
+          </p>
+        </div>
+        <div class="buttonRightLeft">
+          <p>
+            <input type="button" value=&#10095;&#10095; class="specialtyButtonSide" onclick="change(2)">
+          </p>
+        </div>
+      </div>
+
+      <div class="fresh freshButton bold">
+        <a href="fresh.html">Create a Mix</a>
+      </div>
+    </div>
+
+    <div class="three borderTop margin2">.</div>    
+
+    <div class="weather">
+      <h3 class="lineHeight3">Weather for Carlsbad</h3>
+      <div class="weather1 weatherInfo weatherMain gradient"></div>
+      <div class="weather2 weatherInfo weatherTemp"></div>
+      <div class="weather3 weatherInfo weatherTemp"></div>
+      <div class="weather4 weatherInfo weatherTemp"></div>
+    </div>
+    
+    <div class="four borderTop margin2">.</div>
+
+    <div class="beachTowns">
+      <h3 class="lineHeight3">The Most Charming Beach Towns in Southern California</h3>
+      <h4>Malibu</h4>
+      <picture>
+        <img src="images/beach.webp" alt="Picture of Malibu beach" loading="lazy">
+      </picture>
+      <p>One of the most famous stretches of sea in the world also has pockets of small-town charm in the one-mile area near Carbon and Surfrider beaches. Take a stroll out on the long wooden pier that juts out over the Pacific with a few nautical themed shops and organic food haven.</p>
+
+      <div class="freshButton bold">
+        <a href="https://www.purewow.com/travel/best-beach-towns-in-southern-california" target="_blank">More...</a>
+      </div>
+    </div>
+
+    <div class="five borderTop margin2">.</div>
+
+    <h3 class="testimonials">Testimonials</h3>
+    <div class="testimonialsLine">
+      
+      <div class="testimonial1">
+        <h4 class="title1">.</h4>
+        <h5 class="comment1">.</h5>
+      </div>
+
+      <div class="testimonial2">
+        <h4 class="title2">.</h4>
+        <h5 class="comment2">.</h5>
+      </div>
+
+      <div class="testimonial3">
+        <h4 class="title3">.</h4>
+        <h5 class="comment3">.</h5>
+      </div>
+  </div>
+
+    <div class="six borderTop margin2">.</div>
+
+    <h3 class="mobile lineHeight3">Download Bountiful Foods APP</h3>
+    <div class="app">
+
+      <div class="imagesAPP1">
+        <a href="https://www.apple.com/app-store/" target="_blank"><img src="images/appStore.svg" alt="Picture of mobile APP - Apple"></a>
+      </div>
+
+      <div class="imagesAPP2">
+        <a href="https://play.google.com/store/games" target="_blank"><img src="images/googlePlay.svg" alt="Picture of mobile APP - Google Play"></a>
+      </div>
+
+    </div>
+
+    <picture class="cellphone">
+      <img src="images/cellphone.svg" alt="Picture of a cellphone">
+    </picture>
+    
+  </main>
+
+  <footer class="footerIndex alignItemsCenter padding2">
+
+    <div class="socialMedia">
+      <a class="padding1" href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="YouTube Icon"></a>
+      <a class="padding1" href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="Instagram Icon"></a>
+      <a class="padding1" href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+    </div>
+
+    <div class="resources freshButton">
+      <a href="resources.html">Resource</a>
+    </div>
+
+    <div>
+      <p class="textAlignCenter" id="lastModifiedDate"></p>
+    </div>
+
+  </footer>
+
+  <script src="scripts/bountiful.js"></script>
+
+</body>
+</html>

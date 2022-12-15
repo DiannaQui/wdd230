@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H istorical information about Bountiful Foods</title>
+  <meta name="description" content="Contact information, Google Map, and other relevant content in Bountiful Foods">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="heatherIndex textAlignCenter">
+    <div class="logoTop">   
+      <picture class='logoImg textAlignLeft'>
+        <img src="images/earthEcology.svg" alt="Bountiful Foods Logo">
+      </picture>
+
+      <nav class="bountifulNav textAlignLeft">
+        <button class="navButton"><span>♻️</span></button>
+        <ul class='navUl bold margin0'>
+          <li><a class='padding1' href="index.html">🏘️ Home</a></li>
+          <li><a class='padding1' href="fresh.html">🍹 Fresh</a></li>
+          <li><a class='padding1' href="about.html">🌍 About</a></li>  
+        </ul>
+      </nav>
+    </div>
+
+    <div class="logoCenter">
+      <h1 class="welcome margin0">Welcome to <br> Bountiful Foods</h1>
+      <h2>1923 Calle Barcelona, Carlsbad, CA 92009</h2>
+      <h2>(760) 334-7755</h2>
+    </div>
+
+    <div class="freshButton bold">
+      <a href="fresh.html">Create a Mix</a>
+    </div>
+
+    <div class="cart gradiant">
+      <div class="cartInside">
+        <picture class="pictureCarts margin1">
+          <img src="images/cart.svg" alt="Cart">
+        </picture>
+        <p>Number of specialty drinks: <span class="numberSpecialtyDrinks">0</span></p>
+      </div>
+      <input type="button" value="Clear Order" class="clear" onclick="clearS()">
+    </div>
+
+  </header>
+
+  <main class="mainAbout textAlignCenter margin2">
+    <div class="infoWho">
+      <h3>Who are we?</h3>
+      <p> <img class='logoAbout margin1' src="images/who.webp" alt="Picture with hands showing some grapes"> We specializing in organic, locally grown foods. We are physically located in Carlsbad, California, however, we have many food trucks that cover the coastal area from Los Angeles to San Diego. The company sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. The mission is to provide fresh and healthy food options.</p>
+    </div>
+
+    <div class="infoHistory">
+        <h3>Carlsbad History</h3>
+        <p> <img class='beachAbout margin1' src="images/carlsbad.webp" alt="Picture of a beach in Carlsbad"> Carlsbad, city, San Diego county, southern California, U.S. Located 35 miles north of San Diego. Luiseño Indians long inhabited the location before Spanish settlement in the 18th century. Founded as a cattle station located along the Spanish Camino Real and settled by Anglo ranchers in the late 1860s, it was first called Frazier's Station but was renamed (1883) when its mineral waters were found to be similar to those of Karlsbad in Bohemia.</p>
+    </div>
+
+    <div class="infoMap">
+      <h3>Bountiful Foods Map</h3>
+      
+      <iframe class='mapImage' title='Bountiful Foods Map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1405.7223408848672!2d-117.26603875711773!3d33.07252238482272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0b7dbd7e92bf%3A0xea5d6c5f7768506c!2s1923%20Calle%20Barcelona%2C%20Carlsbad%2C%20CA%2092009!5e0!3m2!1sen!2sus!4v1670724805495!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="infoContact">
+      <h3>Contact us to learn how we can help you</h3>
+
+      <div class="people">
+        <div>
+          <h4>Jeff Holloway</h4>
+          <h5>Chief executive officer</h5>
+          <h5>jeff@bountifulfoods.com</h5>
+          <h5>(760) 667-7280</h5>
+        </div>
+
+        <picture class='hands'>
+          <img src="images/hands.webp" alt="Image of joined hands">
+        </picture>
+
+        <div>
+          <h4>Morgan Smith</h4>
+          <h5>Chief marketing officer</h5>
+          <h5>morgan@bountifulfoods.com</h5>
+          <h5>(760) 240-1277</h5>
+        </div>
+      </div>
+
+      <br>
+      <hr>
+
+      <h4>1923 Calle Barcelona, Carlsbad, CA 92009</h4>
+      <h4>(760) 334-7755</h4>
+    </div>
+
+    <form method="get" class="formAbout">
+      <div class="formAboutInside">
+        <fieldset class="costumerInfo">
+            <legend>Your Information</legend>
+            <label class="costumer">First Name* <input type="text" name="firstName"  id="fName" required></label>
+            <label class="costumer">Last Name* <input type="text" name="lastName"  id="lName" required></label>
+            <label class="costumer">Email* <input type="email" name="email" id="email" placeholder="email-name@gmail.com" required></label>
+            <label class="costumer">Phone* <input type="tel" name="phone" id="phone" placeholder="7601112222" required></label>
+        </fieldset>     
+
+
+        <fieldset>
+          <legend>Comments/Questions</legend>
+          <label>.
+            <textarea class='instructionsFresh' name="descriptionAbout" rows="10" cols="30"></textarea>
+          </label>
+        </fieldset>
+      </div>
+      <input type="button" value="Send your comments" class="submitBtnAbout" onclick="aboutForm()">
+      <h4 class="thankYou padding05">.</h4> 
+    </form>
+
+  </main>
+
+  <footer class="footerIndex alignItemsCenter padding2">
+
+    <div class="socialMedia">
+      <a class="padding1" href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="YouTube Icon"></a>
+      <a class="padding1" href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="Instagram Icon"></a>
+      <a class="padding1" href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+    </div>
+
+    <div class="resources freshButton">
+      <a href="resources.html">Resource</a>
+    </div>
+
+    <div>
+      <p class="textAlignCenter" id="lastModifiedDate"></p>
+    </div>
+
+  </footer>
+
+  <script src="scripts/bountiful.js"></script>
+
+</body>
+</html>

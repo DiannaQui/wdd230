@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build a specialty drink</title>
+  <meta name="description" content="Build a specialty drink with three fruit choices and know the total amount of carbohydrates, protein, fat, sugar, and calories">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="heatherIndex textAlignCenter">
+    <div class="logoTop">   
+      <picture class='logoImg textAlignLeft'>
+        <img src="images/earthEcology.svg" alt="Bountiful Foods Logo">
+      </picture>
+
+      <nav class="bountifulNav textAlignLeft">
+        <button class="navButton"><span>♻️</span></button>
+        <ul class='navUl bold margin0'>
+          <li><a class='padding1' href="index.html">🏘️ Home</a></li>
+          <li><a class='padding1' href="fresh.html">🍹 Fresh</a></li>
+          <li><a class='padding1' href="about.html">🌍 About</a></li>  
+        </ul>
+      </nav>
+    </div>
+
+    <div class="logoCenter">
+      <h1 class="welcome margin0">Welcome to <br> Bountiful Foods</h1>
+      <h2>1923 Calle Barcelona, Carlsbad, CA 92009</h2>
+      <h2>(760) 334-7755</h2>
+    </div>
+
+    <div class="freshButton bold">
+      <a class='gradientGreen' href="fresh.html">Create a Mix</a>
+    </div>
+
+    <div class="cart gradiant">
+      <div class="cartInside">
+        <picture class="pictureCarts margin1">
+          <img src="images/cart.svg" alt="Cart">
+        </picture>
+        <p>Number of specialty drinks: <span class="numberSpecialtyDrinks">0</span></p>
+      </div>
+      <input type="button" value="Clear Order" class="clear" onclick="clearS()">
+    </div>
+
+  </header>
+
+  <main class="mainFresh textAlignCenter margin2">
+    <h3 class="titleFresh">Specialty Drink</h3>
+    <div class="imgFresh">
+      <picture>
+        <img src="images/smoothie.svg" alt="Cart">
+      </picture>
+    </div>
+
+    <div>
+      
+      
+      <form method="dialog" onsubmit="getIngredients(2)" class="formFresh">
+        <fieldset class="costumerInfo">
+            <legend>Costumer Information</legend>
+            <label class="costumer">First Name* <input type="text" name="firstName"  id="nameCostumer" required></label>
+            <label class="costumer">Email* <input type="email" name="email" id="emailCostumer" placeholder="email-name@gmail.com" required></label>
+            <label class="costumer">Phone* <input type="tel" name="phone" pattern="[0-9]{10}" id="phoneCostumer" placeholder="7601112222" required></label>
+        </fieldset>     
+
+        <div class="oneFresh borderTop margin2">.</div>
+
+        <fieldset>
+          <legend>Choose three Special Ingredients</legend>
+          <div class="ingredient1 ingredientList"></div>
+          <div class="ingredient2 ingredientList"></div>
+          <div class="ingredient3 ingredientList"></div>
+        </fieldset>
+
+        <div class="twoFresh borderTop margin2">.</div>
+
+        <fieldset>
+          <legend>Special Instructions</legend>
+          <label>.
+            <textarea class='instructionsFresh' name="description" rows="10" cols="30"></textarea>
+          </label>
+        </fieldset>
+
+        <input type="submit" value="Submit your Order" class="submitBtnFresh gradientGreen" >
+
+      </form> 
+      
+    </div>
+
+    <div class="threeFresh borderTop margin2">.</div>
+
+    <div class="displayOrder"></div>
+  </main>
+
+  <footer class="footerIndex alignItemsCenter padding1">
+
+    <div class="socialMedia">
+      <a class="padding1" href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="YouTube Icon"></a>
+      <a class="padding1" href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="Instagram Icon"></a>
+      <a class="padding1" href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+    </div>
+
+    <div class="resources freshButton">
+      <a href="resources.html">Resource</a>
+    </div>
+
+    <div>
+      <p class="textAlignCenter" id="lastModifiedDate"></p>
+    </div>
+
+  </footer>
+
+  <script src="scripts/bountiful.js"></script>
+
+</body>
+</html>

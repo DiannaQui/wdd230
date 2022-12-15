@@ -51,6 +51,7 @@ if (button) {
 }
 
 const member = document.querySelector('.memberName');
+
 if (member) {
     member.textContent = `${localStorage.getItem('firstName')} ${localStorage.getItem('lastName')}`;
     localStorage.removeItem('firstName');

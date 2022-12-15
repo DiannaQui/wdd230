@@ -116,6 +116,7 @@ nav ul li.active a {
   color: var(--accent4White);
 }
 
+
 nav ul li a:hover { background-color: var(--accent3BlackTransparent); }
 
 nav ul.open { text-align: left;}

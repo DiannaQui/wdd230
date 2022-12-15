@@ -1,0 +1,407 @@
+* {
+	box-sizing: border-box;
+	padding: 0;	
+  font-family: 'Hahmlet', serif;
+}
+
+:root {
+  --primaryDarkRed: #960B0B;
+  --secundaryWhite: #ffffff;
+  --accent1DarkBlue: #343BA8;
+  --accent2Green: #187D36;
+  --accent3Black: #000000;
+  --accent4Yellow: #FFF200;
+}
+
+body {
+  font-size: 14px;
+  line-height: 2.5rem;
+  max-width: 1100px;
+  margin: 1rem auto; 
+  padding: 0 1rem;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 1.1em;}
+h3 { font-size: 2.1em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.8em; }
+a { font-size: 1.7em; }
+p { font-size: 1.2em; }
+
+.padding05 { padding: 0.5rem; }
+.padding1 { padding: 1rem; }
+.padding2 { padding: 2rem; }
+.padding3 { padding: 3rem; }
+.padding4 { padding: 4rem; }
+
+.margin0 { margin: 0; }
+.margin1 { margin: 1rem; }
+.margin2 { margin: 2rem; }
+.margin5 { margin: 5rem; }
+
+.lineHeight3 { line-height: 3rem; }
+
+.bold { font-weight: bold; }
+
+.textAlignCenter { text-align: center; }
+.textAlignLeft { text-align: left; }
+.textAlignRight { text-align: right; }
+.alignItemsCenter { align-items: center; }
+
+.people h5, .weatherInfo section h3, 
+.weatherInfo section h2,
+.weatherInfo section figure {margin: 0;}
+
+.open ul, .borderTop, .logoTop,
+.bountifulNav ul, .cart, .cartInside,
+.horizontal, .sideButtonsInside,
+.sideButtons, .app, .costumerInfo,
+.costumer, .people, .footerIndex, .footerRL
+.formAboutInside { display: flex; }
+
+.logoTop, .cart,
+.costumer  { justify-content: space-between; }
+
+.cart, .open ul, .sideButtons,
+.footerIndex, .footerRL,
+.costumerInfo, .costumer, .people, .formAboutInside  {
+  flex-direction: column;
+}
+
+.mainIndex, .specialty,
+.mainFresh, .mainAbout
+{
+  display: grid;
+}
+
+.mainIndex, .specialty, .mainFresh, .mainAbout{
+  grid-template-columns: 1fr;
+}
+
+.navUl li, .cellphone, 
+#specialty2, #specialty3, #specialty4, 
+.testimonial2, .testimonial3,
+.logoAbout, .beachAbout { display: none; }
+
+.borderTop {
+  align-items: center;
+  background-image: url(../images/banana.svg);
+}
+
+a { color: var(--secundaryWhite); text-decoration: none; }
+li { list-style-type: none; }
+
+.logoTop,
+.bountifulNav ul { padding-top: 0.5rem;}
+
+/* heather */
+.heatherIndex, .footerIndex {
+  background-image: url('../images/strawberries1100x433.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--secundaryWhite);
+}
+
+.bountifulNav { margin-right: 2rem;}
+.bountifulNav ul{ gap: 1rem;}
+
+.bountifulNav a:hover, .freshButton a,
+.submitBtnFresh, .submitBtnAbout,
+.specialtyButtonSide { border-radius: 1.5rem;}
+
+.freshButton, .submitBtnFresh,
+.submitBtnAbout { margin: 3rem;}
+
+.freshButton a, .submitBtnFresh, .submitBtnAbout,
+.specialtyButtonSide{
+  background-image: linear-gradient(#187D36,#288b46,#b0d4bc);
+  padding: 1rem;
+  border: none;
+}
+
+.gradiant, .weatherMain section div,
+.bountifulNav a:hover, .freshButton a:hover,
+.submitBtnFresh:hover, .submitBtnAbout:hover,
+.specialtyButtonSide:hover, .orderDate {
+  background-image: linear-gradient(#960B0B,#c35d5d,#d28585,#e7cfcf);
+}
+
+.specialtyButtonSide {
+  color: var(--secundaryWhite);
+  background-color: transparent;
+  border: none;
+}
+
+.logoImg img{
+  width: 35%;
+  height: auto;
+  margin: 1rem 0 0 1rem;
+}
+
+.open .navUl li, 
+.navButton{ display: contents; }
+
+.navButton {
+  font-size: 70px;
+  background-color: transparent;
+  border: none;
+}
+
+.navButton span:hover{
+  cursor: pointer;
+  background-image: url(../images/strawberry.svg);
+  background-repeat: no-repeat;
+  background-size: 0.8rem;
+  background-position: 2.6rem 3.3rem;
+}
+
+.navUl li{ border-bottom: 1px solid green; }
+
+.open ul {
+  position: absolute;
+  margin-left: -5rem;  
+  background-color:  rgba(31, 74, 18, 0.9);
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.open ul li a{ border-bottom: 3px solid var(--accent2Green);}
+
+/* grid */
+.missionIndex, .titleSpecialty,
+.fresh, .testimonials, .sideButtons, 
+.formAbout, .infoMap, .threeFresh, .displayOrder  {
+  grid-column: 1 / -1;
+}
+
+.specialty { row-gap: 5rem;}
+
+/* cart */
+.cart {
+  align-items: center;
+  padding: 1rem;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.pictureCarts img { width: 40px; }
+
+/* info */
+.horizontal {
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.infoIndex img{
+  width: auto;
+  height: 20px;
+}
+
+.infoIndex section {
+  margin-top: 4rem;
+  padding: 1rem;
+}
+
+/* specialty */
+.sideButtonsInside {
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 10rem;
+}
+
+.specialty img { width: 10rem;}
+
+.specialty,
+.infoContact,
+.thankYou  {
+  background-color: rgb(226, 248, 226);
+  border-radius: 1rem;
+}
+
+.specialtyOrderButtonNumber {
+  color:var(--primaryDarkRed);
+  font-weight: bolder;
+}
+
+.specialtyOrderButton,
+.clear {
+  background-color: var(--accent2Green);
+  color:var(--secundaryWhite);
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin:0.5rem;
+}
+
+.specialtyOrderButton:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background-color: var(--accent3Black);
+  cursor: pointer;
+}
+
+.testimonial1, .testimonial2, .testimonial3 {
+  font-weight: bolder;
+  padding:1rem;
+  background-color: rgba(150,11,11,0.95);
+  color:var(--secundaryWhite);
+  border-radius: 1rem;
+}
+
+.testimonialsLine {
+  border-radius: 1rem;
+  background-image: url('../images/heatherBarnes.png');
+  border: 2px solid var(--primaryDarkRed);
+  padding: 2rem;
+}
+
+.testimonial1 h4, .testimonial2 h4, .testimonial3 h4 {
+  background-color: var(--primaryDarkRed);
+  border-radius: 1rem;
+}
+
+/* weather */
+.weather { margin:1rem }
+.weatherInfo { margin: 2rem; }
+
+.weatherMain section div  {
+  border: 1px solid var(--primaryDarkRed);
+  background-color: rgba(150,11,11,0.3);
+  max-width: 200px;
+  min-width: 200px;
+  border-radius: 2rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+} 
+
+.weatherTemp {
+  background-color: rgba(150,11,11,0.6);
+  background-image: linear-gradient(#960B0B,#fdfbfb,#960B0B);
+  max-width: 300px;
+  min-width: 200px;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* beach towns */
+.beachTowns img {
+  width: 80%;
+  height: auto;
+}
+
+/* app */
+.app { justify-content: center;}
+.imagesAPP1 img, .imagesAPP2 img {width: 100px;}
+.cellphone img { width: 40%;}
+
+/* fresh */
+.mainFresh { align-items: center;}
+
+.imgFresh img{ width: 15%;}
+
+.titleOrder,
+.orderDate {
+  background-color: #960B0B;
+  margin:0;
+  padding: 1rem;
+}
+
+/* footer */
+.resources { margin: 3rem 0;}
+.socialMedia img{width:50px;}
+
+/* resources  */
+.mainResources a{color:var(--accent3Black);}
+
+.formFresh {
+  width: 340px;   
+  margin: 0 auto;
+}
+
+.costumer {
+  text-align: left;
+  font-weight: bold;
+  column-gap: 1rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.costumer input,
+.ingredientList select,
+.instructionsFresh {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.displayOrder {
+  border: 6px double var(--primaryDarkRed);
+  border-radius: 1rem;
+}
+.costumerInfoOrder,
+.cardInfoOrder,
+.totalFruitChoices {
+  border: 1px solid var(--primaryDarkRed);
+  padding: 0 1rem;
+  margin: 1.5rem 1rem;
+}
+
+.cardInfoOrder h5,
+.totalFruitChoices h5 {
+  border-bottom: 5px double var(--accent3Black);
+}
+
+.cardInfoOrder h6,
+.totalFruitChoices h6 {
+  margin:0;
+}
+
+form fieldset {border: 5px double var(--accent3Black);}
+
+form fieldset legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+.mainAbout {
+  row-gap: 5rem;
+  line-height: 2rem;
+}
+
+.mapImage {width: 90%;}
+
+/* about */
+.logoAbout,
+.beachAbout {
+  width: 200px;
+  float: left;
+  border-radius: 0.5rem;
+}
+
+.hands img{ width: 200px;}
+
+.infoWho,
+.infoHistory  {
+  border: 1px solid var(--accent2Green);
+  border-radius: 5rem;
+  padding: 2rem;
+}
+
+.people {
+  justify-content: space-evenly;
+  row-gap: 5rem;
+  align-items: center;
+}
+
+.formAbout { margin: 0 auto;}
+.formAboutInside {column-gap: 1rem;}
