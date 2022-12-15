@@ -411,3 +411,5 @@ form fieldset legend {
   display: flex;
   flex-direction: column;
 }
+
+.cartInside h3 {font-size: 1.4rem;}
