@@ -98,7 +98,8 @@ li { list-style-type: none; }
 
 /* heather */
 .heatherIndex, .footerIndex {
-  background-image: url('../images/strawberries.png');
+  background-image: linear-gradient(#000000,#000000,#960B0B,#c35d5d,#960B0B,#000000,#000000);
+  /* background-image: url('../images/strawberries1100x433.webp'); */
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--secundaryWhite);
