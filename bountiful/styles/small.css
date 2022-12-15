@@ -222,6 +222,9 @@ li { list-style-type: none; }
   border-radius: 1rem;
 }
 
+.infoContact {
+  padding: 1rem;
+}
 .specialtyOrderButtonNumber {
   color:var(--primaryDarkRed);
   font-weight: bolder;
@@ -346,6 +349,7 @@ li { list-style-type: none; }
 .displayOrder {
   border: 6px double var(--primaryDarkRed);
   border-radius: 1rem;
+  margin: 3rem 1rem;
 }
 .costumerInfoOrder,
 .cardInfoOrder,
