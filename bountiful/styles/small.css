@@ -59,14 +59,14 @@ p { font-size: 1.2em; }
 .horizontal, .sideButtonsInside,
 .sideButtons, .app, .costumerInfo,
 .costumer, .people, .footerIndex, .footerRL
-.formAboutInside { display: flex; }
+.formAboutInside, .specialIngredients { display: flex; }
 
 .logoTop, .cart,
 .costumer  { justify-content: space-between; }
 
 .cart, .open ul, .sideButtons,
 .footerIndex, .footerRL,
-.costumerInfo, .costumer, .people, .formAboutInside  {
+.costumerInfo, .costumer, .people, .formAboutInside, .specialIngredients  {
   flex-direction: column;
 }
 
@@ -406,10 +406,5 @@ form fieldset legend {
 
 .formAbout { margin: 0 auto;}
 .formAboutInside {column-gap: 1rem;}
-
-.specialIngredients {
-  display: flex;
-  flex-direction: column;
-}
 
 .cartInside h3 {font-size: 1.4rem;}
